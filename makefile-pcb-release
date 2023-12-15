@@ -77,6 +77,7 @@ define LAYERS
     {'file': "F_Fab",         'name': "F.Fab",         'mirror': False, 'border': False},
     {'file': "User_Drawings", 'name': "User.Drawings", 'mirror': False, 'border': False},
     {'file': "User_Eco1",     'name': "User.Eco1",     'mirror': False, 'border': False},
+    {'file': "User_Eco2",     'name': "User.Eco2",     'mirror': False, 'border': False},
     {'file': "B_Edge_Cuts",   'name': "Edge.Cuts",     'mirror': True,  'border': True},
     {'file': "B_Cu",          'name': "B.Cu",          'mirror': True,  'border': False},
     {'file': "B_Paste",       'name': "B.Paste",       'mirror': True,  'border': False},
@@ -92,10 +93,11 @@ endef
 	qpdf --replace-input "$(@D)/assembly_f.pdf" --overlay "$(@D)/${NAME}-F_Fab.pdf" --
 	qpdf --replace-input "$(@D)/assembly_f.pdf" --overlay "$(@D)/${NAME}-User_Drawings.pdf" --
 	qpdf --replace-input "$(@D)/assembly_f.pdf" --overlay "$(@D)/${NAME}-User_Eco1.pdf" --
+	qpdf --replace-input "$(@D)/assembly_f.pdf" --overlay "$(@D)/${NAME}-User_Eco2.pdf" --
 	qpdf "$(@D)/${NAME}-B_Edge_Cuts.pdf" --overlay "$(@D)/${NAME}-B_Cu.pdf" -- "$(@D)/assembly_b.pdf"
 	qpdf --replace-input "$(@D)/assembly_b.pdf" --overlay "$(@D)/${NAME}-B_Paste.pdf" --
 	qpdf --replace-input "$(@D)/assembly_b.pdf" --overlay "$(@D)/${NAME}-B_Fab.pdf" --
-	rm "${COLORS_DIR}/pdf_export.json" "$(@D)/plot.py" "$(@D)/${NAME}-F_Edge_Cuts.pdf" "$(@D)/${NAME}-F_Cu.pdf" "$(@D)/${NAME}-F_Paste.pdf" "$(@D)/${NAME}-F_Fab.pdf" "$(@D)/${NAME}-User_Drawings.pdf" "$(@D)/${NAME}-User_Eco1.pdf" "$(@D)/${NAME}-B_Edge_Cuts.pdf" "$(@D)/${NAME}-B_Cu.pdf" "$(@D)/${NAME}-B_Paste.pdf" "$(@D)/${NAME}-B_Fab.pdf"
+	rm "${COLORS_DIR}/pdf_export.json" "$(@D)/plot.py" "$(@D)/${NAME}-F_Edge_Cuts.pdf" "$(@D)/${NAME}-F_Cu.pdf" "$(@D)/${NAME}-F_Paste.pdf" "$(@D)/${NAME}-F_Fab.pdf" "$(@D)/${NAME}-User_Drawings.pdf" "$(@D)/${NAME}-User_Eco1.pdf" "$(@D)/${NAME}-User_Eco2.pdf" "$(@D)/${NAME}-B_Edge_Cuts.pdf" "$(@D)/${NAME}-B_Cu.pdf" "$(@D)/${NAME}-B_Paste.pdf" "$(@D)/${NAME}-B_Fab.pdf"
 
 
 %/bom.pdf:
@@ -320,31 +322,39 @@ define bom2csv_xsl
 ]>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-	<xsl:output method="text"/>
-	<xsl:key name="partTypeByValueAndFootprint" match="comp" use="concat(footprint, '-', value)" />
-	<xsl:key name="headentr" match="field" use="@name"/>
+  <xsl:output method="text"/>
+  <xsl:key name="partTypeByValueAndFootprint" match="comp" use="concat(footprint, '-', value)" />
+  <xsl:key name="headentr" match="field" use="@name"/>
 
-	<xsl:template match="/export">
-	    <xsl:text>References, Value, Footprint, Qty</xsl:text>
-	    <xsl:apply-templates select="components"/>
-	</xsl:template>
+  <xsl:template match="/export">
+    <xsl:text>References, Value, Footprint, Qty</xsl:text>
+    <xsl:apply-templates select="components"/>
+  </xsl:template>
 
-	<xsl:template match="components">
-	    <!-- for Muenchian grouping of footprint and value combination -->
-	    <xsl:for-each select="comp[count(. | key('partTypeByValueAndFootprint', concat(footprint, '-', value))[1]) = 1]">
-		<xsl:sort select="@ref" />
-		<xsl:text>&nl;</xsl:text>
-		<!-- list of all references -->
-		<xsl:for-each select="key('partTypeByValueAndFootprint', concat(footprint, '-', value))">
-			<xsl:sort select="@ref" />
-			<xsl:value-of select="@ref"/><xsl:text> </xsl:text>
-		</xsl:for-each><xsl:text>,</xsl:text>
-		<!-- quantity of parts with same footprint and value -->
-		<xsl:value-of select="value"/><xsl:text>,</xsl:text>
-		<xsl:value-of select="footprint"/><xsl:text>,</xsl:text>
-		<xsl:value-of select="count(key('partTypeByValueAndFootprint', concat(footprint, '-', value)))"/>
-	    </xsl:for-each>
-	</xsl:template>
+  <xsl:template match="components">
+    <!-- for Muenchian grouping of footprint and value combination -->
+    <xsl:for-each select="comp[count(. | key('partTypeByValueAndFootprint', concat(footprint, '-', value))[1]) = 1]">
+      <!-- <xsl:sort select="@ref" /> -->
+      <xsl:text>&nl;</xsl:text>
+      <!-- list of all references -->
+      <xsl:for-each select="key('partTypeByValueAndFootprint', concat(footprint, '-', value))">
+        <!-- <xsl:sort select="@ref" /> -->
+        <xsl:value-of select="@ref"/>
+        <xsl:text> </xsl:text>
+      </xsl:for-each>
+      <xsl:text>,"</xsl:text>
+      <xsl:value-of select="value"/>
+      <xsl:for-each select="fields/field[@name='ValueAlt']">
+        <xsl:text> (Alternatives: </xsl:text>
+        <xsl:value-of select="."/>
+        <xsl:text>)</xsl:text>
+      </xsl:for-each>
+      <xsl:text>","</xsl:text>
+      <xsl:value-of select="footprint"/>
+      <xsl:text>",</xsl:text>
+      <xsl:value-of select="count(key('partTypeByValueAndFootprint', concat(footprint, '-', value)))"/>
+    </xsl:for-each>
+  </xsl:template>
  </xsl:stylesheet>
 endef
 
