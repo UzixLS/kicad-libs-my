@@ -7,7 +7,7 @@ SCHFILE=${PRO_DIR}/${NAME}.kicad_sch
 PCBFILE=${PRO_DIR}/${NAME}.kicad_pcb
 REV=$(shell sed -En 's/.*\(rev "(.*)"\).*/\1/p' "${SCHFILE}")
 
-KICAD_VER=7.0
+KICAD_VER=8.0
 PYTHON=python
 IBOM_SCRIPT_WIN=${USERPROFILE}/Documents/KiCad/${KICAD_VER}/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py
 IBOM_SCRIPT_NIX=${HOME}/.local/share/kicad/${KICAD_VER}/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py
@@ -63,41 +63,25 @@ gerber: ${PRO_DIR}/out/gerber.zip
 ibom: ${PRO_DIR}/out/bom_interactive.html
 
 
-%/schematic.pdf:
-	mkdir -p $(@D)
+.INTERMEDIATE: ${COLORS_DIR}/pdf_export.json
+${COLORS_DIR}/pdf_export.json:
 	$(file >${COLORS_DIR}/pdf_export.json,${pdf_export_json})
-	kicad-cli sch export pdf --theme pdf_export --output "$@" --no-background-color "${SCHFILE}"
-	rm "${COLORS_DIR}/pdf_export.json"
 
-
-define LAYERS
-    {'file': "F_Edge_Cuts",   'name': "Edge.Cuts",     'mirror': False, 'border': True},
-    {'file': "F_Cu",          'name': "F.Cu",          'mirror': False, 'border': False},
-    {'file': "F_Paste",       'name': "F.Paste",       'mirror': False, 'border': False},
-    {'file': "F_Fab",         'name': "F.Fab",         'mirror': False, 'border': False},
-    {'file': "User_Drawings", 'name': "User.Drawings", 'mirror': False, 'border': False},
-    {'file': "User_Eco1",     'name': "User.Eco1",     'mirror': False, 'border': False},
-    {'file': "User_Eco2",     'name': "User.Eco2",     'mirror': False, 'border': False},
-    {'file': "B_Edge_Cuts",   'name': "Edge.Cuts",     'mirror': True,  'border': True},
-    {'file': "B_Cu",          'name': "B.Cu",          'mirror': True,  'border': False},
-    {'file': "B_Paste",       'name': "B.Paste",       'mirror': True,  'border': False},
-    {'file': "B_Fab",         'name': "B.Fab",         'mirror': True,  'border': False},
-endef
-%/assembly_f.pdf %/assembly_b.pdf:
+%/schematic.pdf: ${COLORS_DIR}/pdf_export.json
 	mkdir -p $(@D)
-	$(file >${COLORS_DIR}/pdf_export.json,${pdf_export_json})
-	$(file >$(@D)/plot.py,${plot_py})
-	${PYTHON} "$(@D)/plot.py" "${PCBFILE}"
-	qpdf "$(@D)/${NAME}-F_Edge_Cuts.pdf" --overlay "$(@D)/${NAME}-F_Cu.pdf" -- "$(@D)/assembly_f.pdf"
-	qpdf --replace-input "$(@D)/assembly_f.pdf" --overlay "$(@D)/${NAME}-F_Paste.pdf" --
-	qpdf --replace-input "$(@D)/assembly_f.pdf" --overlay "$(@D)/${NAME}-F_Fab.pdf" --
-	qpdf --replace-input "$(@D)/assembly_f.pdf" --overlay "$(@D)/${NAME}-User_Drawings.pdf" --
-	qpdf --replace-input "$(@D)/assembly_f.pdf" --overlay "$(@D)/${NAME}-User_Eco1.pdf" --
-	qpdf --replace-input "$(@D)/assembly_f.pdf" --overlay "$(@D)/${NAME}-User_Eco2.pdf" --
-	qpdf "$(@D)/${NAME}-B_Edge_Cuts.pdf" --overlay "$(@D)/${NAME}-B_Cu.pdf" -- "$(@D)/assembly_b.pdf"
-	qpdf --replace-input "$(@D)/assembly_b.pdf" --overlay "$(@D)/${NAME}-B_Paste.pdf" --
-	qpdf --replace-input "$(@D)/assembly_b.pdf" --overlay "$(@D)/${NAME}-B_Fab.pdf" --
-	rm "${COLORS_DIR}/pdf_export.json" "$(@D)/plot.py" "$(@D)/${NAME}-F_Edge_Cuts.pdf" "$(@D)/${NAME}-F_Cu.pdf" "$(@D)/${NAME}-F_Paste.pdf" "$(@D)/${NAME}-F_Fab.pdf" "$(@D)/${NAME}-User_Drawings.pdf" "$(@D)/${NAME}-User_Eco1.pdf" "$(@D)/${NAME}-User_Eco2.pdf" "$(@D)/${NAME}-B_Edge_Cuts.pdf" "$(@D)/${NAME}-B_Cu.pdf" "$(@D)/${NAME}-B_Paste.pdf" "$(@D)/${NAME}-B_Fab.pdf"
+	kicad-cli sch export pdf --theme pdf_export --no-background-color --output "$@" "${SCHFILE}"
+
+%/assembly_f.pdf: ${COLORS_DIR}/pdf_export.json
+	mkdir -p $(@D)
+	kicad-cli pcb export pdf --theme pdf_export --include-border-title --output "$@" \
+		--layers Edge.Cuts,F.Cu,F.Paste,F.Fab,User.Drawings,User.Eco1,User.Eco2 \
+		"${PCBFILE}"
+
+%/assembly_b.pdf: ${COLORS_DIR}/pdf_export.json
+	mkdir -p $(@D)
+	kicad-cli pcb export pdf --theme pdf_export --include-border-title --output "$@" --mirror \
+		--layers Edge.Cuts,B.Cu,B.Paste,B.Fab \
+		"${PCBFILE}"
 
 
 %/bom.pdf:
@@ -126,43 +110,6 @@ PC := %
 
 pdf: ${PRO_DIR}/out/pcb.pdf
 
-
-
-define plot_py
-import os, pcbnew, sys
-layers = [ ${LAYERS} ]
-board = pcbnew.LoadBoard(sys.argv[1])
-settings_manager = pcbnew.GetSettingsManager()  
-color_settings = settings_manager.GetColorSettings('pdf_export')
-plot_controller = pcbnew.PLOT_CONTROLLER(board)
-plot_controller.SetColorMode(True)
-plot_options = plot_controller.GetPlotOptions()
-plot_options.SetOutputDirectory(os.path.dirname(os.path.abspath(__file__)))
-plot_options.SetPlotInvisibleText(False)
-# plot_options.SetPlotPadsOnSilkLayer(False)
-plot_options.SetUseAuxOrigin(False)
-plot_options.SetScale(1.0)
-plot_options.SetAutoScale(False)
-# plot_options.SetPlotMode(PLOT_MODE)
-# plot_options.SetLineWidth(2000)
-plot_options.SetNegative(False)
-plot_options.SetPlotValue(True)
-plot_options.SetPlotReference(True)
-plot_options.SetPlotViaOnMaskLayer(True)
-plot_options.SetColorSettings(color_settings)
-plot_options.SetBlackAndWhite(False)
-for layer in layers:
-    layer_id = board.GetLayerID(layer['name'])
-    if pcbnew.IsCopperLayer(layer_id):
-        plot_options.SetDrillMarksType(pcbnew.DRILL_MARKS_FULL_DRILL_SHAPE)
-    else:
-        plot_options.SetDrillMarksType(pcbnew.DRILL_MARKS_NO_DRILL_SHAPE)
-    plot_options.SetPlotFrameRef(layer['border'])
-    plot_options.SetMirror(layer['mirror'])
-    plot_controller.SetLayer(layer_id)
-    plot_controller.OpenPlotfile(layer['file'], pcbnew.PLOT_FORMAT_PDF, '')
-    plot_controller.PlotLayer()
-endef
 
 
 define pdf_export_json
@@ -227,7 +174,7 @@ define pdf_export_json
     },
     "cursor": "rgb(255, 255, 255)",
     "dwgs_user": "rgb(0, 0, 0)",
-    "eco1_user": "rgb(0, 0, 0)",
+    "eco1_user": "rgb(72, 0, 0)",
     "eco2_user": "rgb(0, 0, 72)",
     "edge_cuts": "rgb(72, 72, 0)",
     "f_adhes": "rgb(132, 0, 132)",
@@ -259,7 +206,7 @@ define pdf_export_json
     "via_hole": "rgb(227, 183, 46)",
     "via_micro": "rgb(0, 132, 132)",
     "via_through": "rgb(236, 236, 236)",
-    "worksheet": "rgb(200, 114, 171)"
+    "worksheet": "rgb(132, 0, 0)"
   },
   "meta": {
     "name": "pdf_export",
