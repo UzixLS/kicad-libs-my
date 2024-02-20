@@ -66,7 +66,7 @@
 		(start -8.85 6.5)
 		(end -8.85 -10.5)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -76,7 +76,7 @@
 		(start -8.85 6.5)
 		(end -5.588 6.5)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -86,7 +86,7 @@
 		(start -5.588 6.5)
 		(end -5.588 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -96,7 +96,7 @@
 		(start -2.032 4.064)
 		(end -5.588 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -106,7 +106,7 @@
 		(start -2.032 6.5)
 		(end -2.032 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -116,7 +116,7 @@
 		(start 0 -12.5)
 		(end -10.5 -12.5)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -136,7 +136,7 @@
 		(start 2.032 6.5)
 		(end 2.032 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -146,7 +146,7 @@
 		(start 5.588 4.064)
 		(end 2.032 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -156,7 +156,7 @@
 		(start 5.588 6.5)
 		(end 5.588 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -166,7 +166,7 @@
 		(start 8.85 -10.5)
 		(end 8.85 6.5)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -176,7 +176,7 @@
 		(start 8.85 6.5)
 		(end 5.588 6.5)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -186,7 +186,7 @@
 		(start -10.5 -12.5)
 		(end 10.5 -10.5)
 		(stroke
-			(width 0.15)
+			(width 0.12)
 			(type default)
 		)
 		(fill none)
@@ -197,7 +197,7 @@
 		(start -10.8 -12.8)
 		(end 10.8 6.8)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type default)
 		)
 		(fill none)
@@ -208,7 +208,7 @@
 		(start -8.85 6.5)
 		(end -8.85 -10.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -218,7 +218,7 @@
 		(start -8.85 6.5)
 		(end -5.588 6.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -228,7 +228,7 @@
 		(start -5.588 6.5)
 		(end -5.588 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -238,7 +238,7 @@
 		(start -2.032 4.064)
 		(end -5.588 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -248,27 +248,17 @@
 		(start -2.032 6.5)
 		(end -2.032 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "714145ef-286f-4f31-8667-1d8a80fb0da4")
 	)
 	(fp_line
-		(start 0 -12.5)
-		(end -10.5 -12.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "0b076dd6-0cad-4da7-a514-f07d58143d3b")
-	)
-	(fp_line
 		(start 2.032 6.5)
 		(end -2.032 6.5)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -278,7 +268,7 @@
 		(start 2.032 6.5)
 		(end 2.032 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -288,7 +278,7 @@
 		(start 5.588 4.064)
 		(end 2.032 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -298,7 +288,7 @@
 		(start 5.588 6.5)
 		(end 5.588 4.064)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -308,7 +298,7 @@
 		(start 8.85 -10.5)
 		(end 8.85 6.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -318,7 +308,7 @@
 		(start 8.85 6.5)
 		(end 5.588 6.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -328,12 +318,25 @@
 		(start -10.5 -12.5)
 		(end 10.5 -10.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.Fab")
 		(uuid "ea0ea47d-bb0b-4408-a4f5-38f3a4fe855d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2eec13fb-0170-404e-9d09-9417edb5def7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
 	)
 	(pad "0" thru_hole rect
 		(at -5 -10 180)
@@ -367,42 +370,42 @@
 		(remove_unused_layers no)
 		(uuid "38b67cad-931e-4fb4-b498-ab51d27ba96d")
 	)
-	(pad "1" thru_hole oval
+	(pad "1" thru_hole circle
 		(at -7.5 0 180)
-		(size 1.8 2.4)
-		(drill oval 0.9 1.5)
+		(size 2.4 2.4)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b7ccfc32-4068-4130-8868-054d5a80b63e")
 	)
-	(pad "2" thru_hole oval
+	(pad "2" thru_hole circle
 		(at 0 0 180)
-		(size 1.8 2.4)
-		(drill oval 0.9 1.5)
+		(size 2.4 2.4)
+		(drill oval 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1806fa84-d7a2-4676-b3b0-ef25f5be35fd")
 	)
-	(pad "3" thru_hole oval
+	(pad "3" thru_hole circle
 		(at 7.5 0 180)
-		(size 1.8 2.4)
-		(drill oval 0.9 1.5)
+		(size 2.4 2.4)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "bee73f7c-99c1-46a5-b683-ced9822fcb14")
 	)
-	(pad "4" thru_hole oval
+	(pad "4" thru_hole circle
 		(at -5 2.5 180)
-		(size 1.8 2.4)
-		(drill oval 0.9 1.5)
+		(size 2.4 2.4)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4fe47b06-8361-4098-8b33-fbfa4f4890da")
 	)
-	(pad "5" thru_hole oval
+	(pad "5" thru_hole circle
 		(at 5 2.5 180)
-		(size 1.8 2.4)
-		(drill oval 0.9 1.5)
+		(size 2.4 2.4)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f23b3264-04de-4aef-97b5-ba7c9688412e")

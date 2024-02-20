@@ -208,7 +208,7 @@
 		(start -24 -4.4)
 		(end 3.75 9.4)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type default)
 		)
 		(fill none)
