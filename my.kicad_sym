@@ -3533,8 +3533,8 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -10.16 180)
-				(length 5.08)
+				(at 15.24 -10.16 180)
+				(length 3.81)
 				(name "CAP1A"
 					(effects
 						(font
@@ -3551,8 +3551,8 @@
 				)
 			)
 			(pin input line
-				(at -16.51 6.35 0)
-				(length 5.08)
+				(at -15.24 6.35 0)
+				(length 3.81)
 				(name "A1"
 					(effects
 						(font
@@ -3569,8 +3569,8 @@
 				)
 			)
 			(pin input line
-				(at -16.51 3.81 0)
-				(length 5.08)
+				(at -15.24 3.81 0)
+				(length 3.81)
 				(name "A2"
 					(effects
 						(font
@@ -3587,8 +3587,8 @@
 				)
 			)
 			(pin input line
-				(at -16.51 1.27 0)
-				(length 5.08)
+				(at -15.24 1.27 0)
+				(length 3.81)
 				(name "A3"
 					(effects
 						(font
@@ -3605,8 +3605,8 @@
 				)
 			)
 			(pin input line
-				(at -16.51 -1.27 0)
-				(length 5.08)
+				(at -15.24 -1.27 0)
+				(length 3.81)
 				(name "A4"
 					(effects
 						(font
@@ -3623,8 +3623,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -34.29 90)
-				(length 5.08)
+				(at 0 -33.02 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -3641,8 +3641,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -5.08 0)
-				(length 5.08)
+				(at -15.24 -5.08 0)
+				(length 3.81)
 				(name "D0"
 					(effects
 						(font
@@ -3659,8 +3659,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -7.62 0)
-				(length 5.08)
+				(at -15.24 -7.62 0)
+				(length 3.81)
 				(name "D1"
 					(effects
 						(font
@@ -3677,8 +3677,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -10.16 0)
-				(length 5.08)
+				(at -15.24 -10.16 0)
+				(length 3.81)
 				(name "D2"
 					(effects
 						(font
@@ -3695,8 +3695,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -12.7 0)
-				(length 5.08)
+				(at -15.24 -12.7 0)
+				(length 3.81)
 				(name "D3"
 					(effects
 						(font
@@ -3713,8 +3713,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -15.24 0)
-				(length 5.08)
+				(at -15.24 -15.24 0)
+				(length 3.81)
 				(name "D4"
 					(effects
 						(font
@@ -3731,8 +3731,8 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -12.7 180)
-				(length 5.08)
+				(at 15.24 -12.7 180)
+				(length 3.81)
 				(name "CAP1B"
 					(effects
 						(font
@@ -3749,8 +3749,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -17.78 0)
-				(length 5.08)
+				(at -15.24 -17.78 0)
+				(length 3.81)
 				(name "D5"
 					(effects
 						(font
@@ -3767,8 +3767,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -20.32 0)
-				(length 5.08)
+				(at -15.24 -20.32 0)
+				(length 3.81)
 				(name "D6"
 					(effects
 						(font
@@ -3785,8 +3785,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -22.86 0)
-				(length 5.08)
+				(at -15.24 -22.86 0)
+				(length 3.81)
 				(name "D7"
 					(effects
 						(font
@@ -3803,8 +3803,8 @@
 				)
 			)
 			(pin input line
-				(at 16.51 5.08 180)
-				(length 5.08)
+				(at 15.24 5.08 180)
+				(length 3.81)
 				(name "POT_Y"
 					(effects
 						(font
@@ -3821,8 +3821,8 @@
 				)
 			)
 			(pin input line
-				(at 16.51 7.62 180)
-				(length 5.08)
+				(at 15.24 7.62 180)
+				(length 3.81)
 				(name "POT_X"
 					(effects
 						(font
@@ -3839,8 +3839,8 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 33.02 270)
-				(length 5.08)
+				(at -2.54 31.75 270)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
@@ -3857,8 +3857,8 @@
 				)
 			)
 			(pin input line
-				(at 16.51 16.51 180)
-				(length 5.08)
+				(at 15.24 16.51 180)
+				(length 3.81)
 				(name "EXT_IN"
 					(effects
 						(font
@@ -3875,8 +3875,8 @@
 				)
 			)
 			(pin output line
-				(at 16.51 21.59 180)
-				(length 5.08)
+				(at 15.24 21.59 180)
+				(length 3.81)
 				(name "AUDIO_OUT"
 					(effects
 						(font
@@ -3893,8 +3893,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 33.02 270)
-				(length 5.08)
+				(at 2.54 31.75 270)
+				(length 3.81)
 				(name "VDD"
 					(effects
 						(font
@@ -3911,8 +3911,8 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -20.32 180)
-				(length 5.08)
+				(at 15.24 -20.32 180)
+				(length 3.81)
 				(name "CAP2A"
 					(effects
 						(font
@@ -3929,8 +3929,8 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -22.86 180)
-				(length 5.08)
+				(at 15.24 -22.86 180)
+				(length 3.81)
 				(name "CAP2B"
 					(effects
 						(font
@@ -3947,8 +3947,8 @@
 				)
 			)
 			(pin input input_low
-				(at -16.51 21.59 0)
-				(length 5.08)
+				(at -15.24 21.59 0)
+				(length 3.81)
 				(name "~{RES}"
 					(effects
 						(font
@@ -3965,8 +3965,8 @@
 				)
 			)
 			(pin input clock
-				(at -16.51 19.05 0)
-				(length 5.08)
+				(at -15.24 19.05 0)
+				(length 3.81)
 				(name "ϕ2"
 					(effects
 						(font
@@ -3983,8 +3983,8 @@
 				)
 			)
 			(pin input line
-				(at -16.51 12.7 0)
-				(length 5.08)
+				(at -15.24 12.7 0)
+				(length 3.81)
 				(name "R/~{W}"
 					(effects
 						(font
@@ -4001,8 +4001,8 @@
 				)
 			)
 			(pin input input_low
-				(at -16.51 15.24 0)
-				(length 5.08)
+				(at -15.24 15.24 0)
+				(length 3.81)
 				(name "~{CS}"
 					(effects
 						(font
@@ -4019,8 +4019,8 @@
 				)
 			)
 			(pin input line
-				(at -16.51 8.89 0)
-				(length 5.08)
+				(at -15.24 8.89 0)
+				(length 3.81)
 				(name "A0"
 					(effects
 						(font
@@ -22960,7 +22960,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.763 118.11 270)
+				(at 8.89 118.11 270)
 				(length 5.08)
 				(name "VCCio"
 					(effects
@@ -71626,7 +71626,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin input clock
 				(at -13.97 5.08 0)
 				(length 5.08)
 				(name "CLK"
@@ -77386,8 +77386,8 @@
 		)
 		(symbol "TDA1543_1_1"
 			(rectangle
-				(start -8.89 5.08)
-				(end 10.16 -5.08)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -77397,8 +77397,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 3.81 0)
-				(length 3.81)
+				(at -10.16 2.54 0)
+				(length 2.54)
 				(name "BCK"
 					(effects
 						(font
@@ -77415,8 +77415,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
-				(length 3.81)
+				(at -10.16 0 0)
+				(length 2.54)
 				(name "WS"
 					(effects
 						(font
@@ -77433,8 +77433,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
-				(length 3.81)
+				(at -10.16 -2.54 0)
+				(length 2.54)
 				(name "DATA"
 					(effects
 						(font
@@ -77451,8 +77451,8 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -3.81 0)
-				(length 3.81)
+				(at 0 -7.62 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -77469,8 +77469,8 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -3.81 180)
-				(length 3.81)
+				(at 0 7.62 270)
+				(length 2.54)
 				(name "VDD"
 					(effects
 						(font
@@ -77487,8 +77487,8 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -1.27 180)
-				(length 3.81)
+				(at 10.16 -2.54 180)
+				(length 2.54)
 				(name "AOL"
 					(effects
 						(font
@@ -77505,8 +77505,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 1.27 180)
-				(length 3.81)
+				(at 10.16 0 180)
+				(length 2.54)
 				(name "VREF"
 					(effects
 						(font
@@ -77523,8 +77523,8 @@
 				)
 			)
 			(pin output line
-				(at 13.97 3.81 180)
-				(length 3.81)
+				(at 10.16 2.54 180)
+				(length 2.54)
 				(name "AOR"
 					(effects
 						(font
@@ -83044,7 +83044,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin input clock
 				(at -21.59 -6.35 0)
 				(length 5.08)
 				(name "XTALI"
@@ -87182,20 +87182,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "YAC512_0_1"
+		(symbol "YAC512_1_1"
 			(rectangle
 				(start -7.62 11.43)
 				(end 7.62 -12.7)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "YAC512_1_1"
 			(pin power_in line
 				(at -1.27 16.51 270)
 				(length 5.08)
@@ -89572,7 +89570,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.35 10.16 0)
+			(at 2.032 8.382 0)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -89580,7 +89578,7 @@
 			)
 		)
 		(property "Value" "YM3014B"
-			(at 5.08 10.16 0)
+			(at 4.826 6.604 0)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -89588,7 +89586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 13.97 0 0)
+			(at 11.43 0 0)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -89597,7 +89595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 13.97 0 0)
+			(at 11.43 0 0)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -89625,8 +89623,8 @@
 		)
 		(symbol "YM3014B_0_0"
 			(pin power_in line
-				(at 0 13.97 270)
-				(length 5.08)
+				(at 0 7.62 270)
+				(length 2.54)
 				(name "Vdd"
 					(effects
 						(font
@@ -89643,8 +89641,8 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -3.81 180)
-				(length 5.08)
+				(at 11.43 -2.54 180)
+				(length 2.54)
 				(name "ToBUFF"
 					(effects
 						(font
@@ -89661,8 +89659,8 @@
 				)
 			)
 			(pin input line
-				(at -13.97 3.81 0)
-				(length 5.08)
+				(at -11.43 2.54 0)
+				(length 2.54)
 				(name "LOAD"
 					(effects
 						(font
@@ -89679,8 +89677,8 @@
 				)
 			)
 			(pin input line
-				(at -13.97 0 0)
-				(length 5.08)
+				(at -11.43 0 0)
+				(length 2.54)
 				(name "SD"
 					(effects
 						(font
@@ -89696,27 +89694,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -13.97 -3.81 0)
-				(length 5.08)
-				(name "CLOCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 0 -13.97 90)
-				(length 5.08)
+				(at 0 -7.62 90)
+				(length 2.54)
 				(name "Vss"
 					(effects
 						(font
@@ -89733,8 +89713,8 @@
 				)
 			)
 			(pin output line
-				(at 13.97 0 180)
-				(length 5.08)
+				(at 11.43 0 180)
+				(length 2.54)
 				(name "Rb"
 					(effects
 						(font
@@ -89751,8 +89731,8 @@
 				)
 			)
 			(pin input line
-				(at 13.97 3.81 180)
-				(length 5.08)
+				(at 11.43 2.54 180)
+				(length 2.54)
 				(name "Mp"
 					(effects
 						(font
@@ -89769,10 +89749,30 @@
 				)
 			)
 		)
-		(symbol "YM3014B_0_1"
+		(symbol "YM3014B_1_0"
+			(pin input clock
+				(at -11.43 -2.54 0)
+				(length 2.54)
+				(name "CLOCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "YM3014B_1_1"
 			(rectangle
-				(start -8.89 8.89)
-				(end 8.89 -8.89)
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -89838,7 +89838,7 @@
 				(start -8.89 22.86)
 				(end 8.89 -22.86)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
