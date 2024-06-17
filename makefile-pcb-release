@@ -55,6 +55,7 @@ gerber: ${PRO_DIR}/out/gerber.zip
 		--dnp-field DNP \
 		--group-fields "Value,Footprint" \
 		--include-nets \
+		--include-tracks \
 		--normalize-field-case \
 		--no-browser \
 		--dest-dir "out" \
