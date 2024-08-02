@@ -72,18 +72,32 @@ ${COLORS_DIR}/pdf_export.json:
 	mkdir -p $(@D)
 	kicad-cli sch export pdf --theme pdf_export --no-background-color --output "$@" "${SCHFILE}"
 
+
 %/assembly_f.pdf: ${COLORS_DIR}/pdf_export.json
 	mkdir -p $(@D)
-	kicad-cli pcb export pdf --theme pdf_export --include-border-title --output "$@" \
-		--layers Edge.Cuts,F.Cu,F.Paste,F.Fab,User.Drawings,User.Eco1,User.Eco2 \
-		"${PCBFILE}"
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 2 --include-border-title --output "$(@D)/F_Cu.pdf" --layers F.Cu "${PCBFILE}"
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 0 --output "$(@D)/F_Mask.pdf" --layers F.Mask "${PCBFILE}"
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 2 --output "$(@D)/F_Drills.pdf" --layers Edge.Cuts "${PCBFILE}"
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 0 --black-and-white --output "$(@D)/F_Edge_Cuts.pdf" --layers Edge.Cuts "${PCBFILE}"
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 0 --output "$(@D)/F_Fab.pdf" --layers F.Fab,User.Drawings,User.Comments,User.Eco1,User.Eco2 "${PCBFILE}"
+	qpdf "$(@D)/F_Cu.pdf" --overlay "$(@D)/F_Mask.pdf" -- "$@"
+	qpdf --replace-input "$@" --overlay "$(@D)/F_Drills.pdf" --
+	qpdf --replace-input "$@" --overlay "$(@D)/F_Edge_Cuts.pdf" --
+	qpdf --replace-input "$@" --overlay "$(@D)/F_Fab.pdf" --
+	rm "$(@D)/F_Cu.pdf" "$(@D)/F_Mask.pdf" "$(@D)/F_Drills.pdf" "$(@D)/F_Edge_Cuts.pdf" "$(@D)/F_Fab.pdf"
 
 %/assembly_b.pdf: ${COLORS_DIR}/pdf_export.json
 	mkdir -p $(@D)
-	kicad-cli pcb export pdf --theme pdf_export --include-border-title --output "$@" --mirror \
-		--layers Edge.Cuts,B.Cu,B.Paste,B.Fab \
-		"${PCBFILE}"
-
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 2 --mirror --include-border-title --output "$(@D)/B_Cu.pdf" --layers B.Cu "${PCBFILE}"
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 0 --mirror --output "$(@D)/B_Mask.pdf" --layers B.Mask "${PCBFILE}"
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 2 --mirror --output "$(@D)/B_Drills.pdf" --layers Edge.Cuts "${PCBFILE}"
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 0 --mirror --black-and-white --output "$(@D)/B_Edge_Cuts.pdf" --layers Edge.Cuts "${PCBFILE}"
+	kicad-cli pcb export pdf --theme pdf_export --drill-shape-opt 0 --mirror --output "$(@D)/B_Fab.pdf" --layers B.Fab "${PCBFILE}"
+	qpdf "$(@D)/B_Cu.pdf" --overlay "$(@D)/B_Mask.pdf" -- "$@"
+	qpdf --replace-input "$@" --overlay "$(@D)/B_Drills.pdf" --
+	qpdf --replace-input "$@" --overlay "$(@D)/B_Edge_Cuts.pdf" --
+	qpdf --replace-input "$@" --overlay "$(@D)/B_Fab.pdf" --
+	rm "$(@D)/B_Cu.pdf" "$(@D)/B_Mask.pdf" "$(@D)/B_Drills.pdf" "$(@D)/B_Edge_Cuts.pdf" "$(@D)/B_Fab.pdf"
 
 %/bom.pdf:
 	mkdir -p "$(@D)"
@@ -115,194 +129,194 @@ pdf: ${PRO_DIR}/out/pcb.pdf
 
 define pdf_export_json
 {
-  "3d_viewer": {
-    "background_bottom": "rgb(102, 102, 128)",
-    "background_top": "rgb(204, 204, 230)",
-    "board": "rgba(51, 43, 23, 0.902)",
-    "copper": "rgb(179, 156, 0)",
-    "silkscreen_bottom": "rgb(230, 230, 230)",
-    "silkscreen_top": "rgb(230, 230, 230)",
-    "soldermask_bottom": "rgba(20, 51, 36, 0.831)",
-    "soldermask_top": "rgba(20, 51, 36, 0.831)",
-    "solderpaste": "rgb(128, 128, 128)",
-    "use_board_stackup_colors": true
-  },
-  "board": {
-    "anchor": "rgb(255, 38, 226)",
-    "aux_items": "rgb(255, 255, 255)",
-    "b_adhes": "rgb(0, 0, 132)",
-    "b_crtyd": "rgb(38, 233, 255)",
-    "b_fab": "rgb(0, 0, 0)",
-    "b_mask": "rgba(0, 132, 0, 0.400)",
-    "b_paste": "rgba(0, 132, 0, 0.400)",
-    "b_silks": "rgb(255, 0, 0)",
-    "background": "rgb(255, 255, 255)",
-    "cmts_user": "rgb(89, 148, 220)",
-    "conflicts_shadow": "rgba(255, 0, 5, 0.502)",
-    "copper": {
-      "b": "rgba(0, 132, 0, 0.200)",
-      "f": "rgba(0, 132, 0, 0.200)",
-      "in1": "rgb(127, 200, 127)",
-      "in10": "rgb(237, 124, 51)",
-      "in11": "rgb(91, 195, 235)",
-      "in12": "rgb(247, 111, 142)",
-      "in13": "rgb(167, 165, 198)",
-      "in14": "rgb(40, 204, 217)",
-      "in15": "rgb(232, 178, 167)",
-      "in16": "rgb(242, 237, 161)",
-      "in17": "rgb(237, 124, 51)",
-      "in18": "rgb(91, 195, 235)",
-      "in19": "rgb(247, 111, 142)",
-      "in2": "rgb(206, 125, 44)",
-      "in20": "rgb(167, 165, 198)",
-      "in21": "rgb(40, 204, 217)",
-      "in22": "rgb(232, 178, 167)",
-      "in23": "rgb(242, 237, 161)",
-      "in24": "rgb(237, 124, 51)",
-      "in25": "rgb(91, 195, 235)",
-      "in26": "rgb(247, 111, 142)",
-      "in27": "rgb(167, 165, 198)",
-      "in28": "rgb(40, 204, 217)",
-      "in29": "rgb(232, 178, 167)",
-      "in3": "rgb(79, 203, 203)",
-      "in30": "rgb(242, 237, 161)",
-      "in4": "rgb(219, 98, 139)",
-      "in5": "rgb(167, 165, 198)",
-      "in6": "rgb(40, 204, 217)",
-      "in7": "rgb(232, 178, 167)",
-      "in8": "rgb(242, 237, 161)",
-      "in9": "rgb(141, 203, 129)"
-    },
-    "cursor": "rgb(255, 255, 255)",
-    "dwgs_user": "rgb(0, 0, 0)",
-    "eco1_user": "rgb(72, 0, 0)",
-    "eco2_user": "rgb(0, 0, 72)",
-    "edge_cuts": "rgb(72, 72, 0)",
-    "f_adhes": "rgb(132, 0, 132)",
-    "f_crtyd": "rgb(255, 38, 226)",
-    "f_fab": "rgb(0, 0, 0)",
-    "f_mask": "rgba(0, 132, 0, 0.400)",
-    "f_paste": "rgba(0, 132, 0, 0.400)",
-    "f_silks": "rgb(255, 0, 0)",
-    "footprint_text_invisible": "rgb(132, 132, 132)",
-    "grid": "rgb(194, 194, 194)",
-    "grid_axes": "rgb(72, 72, 72)",
-    "locked_shadow": "rgba(255, 38, 226, 0.502)",
-    "margin": "rgb(255, 38, 226)",
-    "pad_plated_hole": "rgb(194, 194, 0)",
-    "pad_through_hole": "rgb(227, 183, 46)",
-    "page_limits": "rgb(132, 132, 132)",
-    "plated_hole": "rgb(26, 196, 210)",
-    "ratsnest": "rgba(0, 248, 255, 0.349)",
-    "user_1": "rgb(194, 194, 194)",
-    "user_2": "rgb(89, 148, 220)",
-    "user_3": "rgb(180, 219, 210)",
-    "user_4": "rgb(216, 200, 82)",
-    "user_5": "rgb(194, 194, 194)",
-    "user_6": "rgb(89, 148, 220)",
-    "user_7": "rgb(180, 219, 210)",
-    "user_8": "rgb(216, 200, 82)",
-    "user_9": "rgb(232, 178, 167)",
-    "via_blind_buried": "rgb(187, 151, 38)",
-    "via_hole": "rgb(227, 183, 46)",
-    "via_micro": "rgb(0, 132, 132)",
-    "via_through": "rgb(236, 236, 236)",
-    "worksheet": "rgb(132, 0, 0)"
-  },
-  "meta": {
-    "name": "pdf_export",
-    "version": 5
-  },
-  "schematic": {
-    "anchor": "rgb(0, 0, 255)",
-    "aux_items": "rgb(0, 0, 0)",
-    "background": "rgb(245, 244, 239)",
-    "brightened": "rgb(255, 0, 255)",
-    "bus": "rgb(0, 0, 132)",
-    "bus_junction": "rgb(0, 0, 132)",
-    "component_body": "rgb(255, 255, 194)",
-    "component_outline": "rgb(132, 0, 0)",
-    "cursor": "rgb(15, 15, 15)",
-    "fields": "rgb(132, 0, 132)",
-    "grid": "rgb(181, 181, 181)",
-    "grid_axes": "rgb(0, 0, 132)",
-    "hidden": "rgb(94, 194, 194)",
-    "hovered": "rgb(0, 0, 255)",
-    "junction": "rgb(0, 150, 0)",
-    "label_global": "rgb(132, 0, 0)",
-    "label_hier": "rgb(114, 86, 0)",
-    "label_local": "rgb(15, 15, 15)",
-    "netclass_flag": "rgb(72, 72, 72)",
-    "no_connect": "rgb(0, 0, 132)",
-    "note": "rgb(0, 0, 194)",
-    "note_background": "rgba(0, 0, 0, 0.000)",
-    "override_item_colors": false,
-    "page_limits": "rgb(181, 181, 181)",
-    "pin": "rgb(132, 0, 0)",
-    "pin_name": "rgb(0, 100, 100)",
-    "pin_number": "rgb(169, 0, 0)",
-    "private_note": "rgb(72, 72, 255)",
-    "reference": "rgb(0, 100, 100)",
-    "shadow": "rgba(102, 179, 255, 0.800)",
-    "sheet": "rgb(132, 0, 0)",
-    "sheet_background": "rgba(255, 255, 255, 0.000)",
-    "sheet_fields": "rgb(132, 0, 132)",
-    "sheet_filename": "rgb(114, 86, 0)",
-    "sheet_label": "rgb(0, 100, 100)",
-    "sheet_name": "rgb(0, 100, 100)",
-    "value": "rgb(0, 100, 100)",
-    "wire": "rgb(0, 150, 0)",
-    "worksheet": "rgb(132, 0, 0)"
-  }
+	"3d_viewer": {
+		"background_bottom": "rgb(102, 102, 128)",
+		"background_top": "rgb(204, 204, 230)",
+		"board": "rgba(51, 43, 23, 0.902)",
+		"copper": "rgb(179, 156, 0)",
+		"silkscreen_bottom": "rgb(230, 230, 230)",
+		"silkscreen_top": "rgb(230, 230, 230)",
+		"soldermask_bottom": "rgba(20, 51, 36, 0.831)",
+		"soldermask_top": "rgba(20, 51, 36, 0.831)",
+		"solderpaste": "rgb(128, 128, 128)",
+		"use_board_stackup_colors": true
+	},
+	"board": {
+		"anchor": "rgb(255, 38, 226)",
+		"aux_items": "rgb(255, 255, 255)",
+		"b_adhes": "rgb(0, 0, 132)",
+		"b_crtyd": "rgb(38, 233, 255)",
+		"b_fab": "rgb(0, 0, 0)",
+		"b_mask": "rgba(0, 132, 0, 0.350)",
+		"b_paste": "rgba(0, 132, 0, 0.350)",
+		"b_silks": "rgb(255, 0, 0)",
+		"background": "rgb(255, 255, 255)",
+		"cmts_user": "rgb(89, 148, 220)",
+		"conflicts_shadow": "rgba(255, 0, 5, 0.502)",
+		"copper": {
+			"b": "rgba(0, 132, 0, 0.200)",
+			"f": "rgba(0, 132, 0, 0.200)",
+			"in1": "rgb(127, 200, 127)",
+			"in10": "rgb(237, 124, 51)",
+			"in11": "rgb(91, 195, 235)",
+			"in12": "rgb(247, 111, 142)",
+			"in13": "rgb(167, 165, 198)",
+			"in14": "rgb(40, 204, 217)",
+			"in15": "rgb(232, 178, 167)",
+			"in16": "rgb(242, 237, 161)",
+			"in17": "rgb(237, 124, 51)",
+			"in18": "rgb(91, 195, 235)",
+			"in19": "rgb(247, 111, 142)",
+			"in2": "rgb(206, 125, 44)",
+			"in20": "rgb(167, 165, 198)",
+			"in21": "rgb(40, 204, 217)",
+			"in22": "rgb(232, 178, 167)",
+			"in23": "rgb(242, 237, 161)",
+			"in24": "rgb(237, 124, 51)",
+			"in25": "rgb(91, 195, 235)",
+			"in26": "rgb(247, 111, 142)",
+			"in27": "rgb(167, 165, 198)",
+			"in28": "rgb(40, 204, 217)",
+			"in29": "rgb(232, 178, 167)",
+			"in3": "rgb(79, 203, 203)",
+			"in30": "rgb(242, 237, 161)",
+			"in4": "rgb(219, 98, 139)",
+			"in5": "rgb(167, 165, 198)",
+			"in6": "rgb(40, 204, 217)",
+			"in7": "rgb(232, 178, 167)",
+			"in8": "rgb(242, 237, 161)",
+			"in9": "rgb(141, 203, 129)"
+		},
+		"cursor": "rgb(255, 255, 255)",
+		"dwgs_user": "rgb(0, 0, 100)",
+		"eco1_user": "rgb(100, 0, 0)",
+		"eco2_user": "rgb(0, 100, 0)",
+		"edge_cuts": "rgb(250, 250, 250)",
+		"f_adhes": "rgb(132, 0, 132)",
+		"f_crtyd": "rgb(255, 38, 226)",
+		"f_fab": "rgb(0, 0, 0)",
+		"f_mask": "rgba(0, 132, 0, 0.350)",
+		"f_paste": "rgba(0, 132, 0, 0.350)",
+		"f_silks": "rgb(255, 0, 0)",
+		"footprint_text_invisible": "rgb(132, 132, 132)",
+		"grid": "rgb(194, 194, 194)",
+		"grid_axes": "rgb(72, 72, 72)",
+		"locked_shadow": "rgba(255, 38, 226, 0.502)",
+		"margin": "rgb(255, 38, 226)",
+		"pad_plated_hole": "rgb(194, 194, 0)",
+		"pad_through_hole": "rgb(227, 183, 46)",
+		"page_limits": "rgb(132, 132, 132)",
+		"plated_hole": "rgb(26, 196, 210)",
+		"ratsnest": "rgba(0, 248, 255, 0.349)",
+		"user_1": "rgb(194, 194, 194)",
+		"user_2": "rgb(89, 148, 220)",
+		"user_3": "rgb(180, 219, 210)",
+		"user_4": "rgb(216, 200, 82)",
+		"user_5": "rgb(194, 194, 194)",
+		"user_6": "rgb(89, 148, 220)",
+		"user_7": "rgb(180, 219, 210)",
+		"user_8": "rgb(216, 200, 82)",
+		"user_9": "rgb(232, 178, 167)",
+		"via_blind_buried": "rgb(187, 151, 38)",
+		"via_hole": "rgb(227, 183, 46)",
+		"via_micro": "rgb(0, 132, 132)",
+		"via_through": "rgb(236, 236, 236)",
+		"worksheet": "rgb(132, 0, 0)"
+	},
+	"meta": {
+		"name": "pdf_export",
+		"version": 5
+	},
+	"schematic": {
+		"anchor": "rgb(0, 0, 255)",
+		"aux_items": "rgb(0, 0, 0)",
+		"background": "rgb(245, 244, 239)",
+		"brightened": "rgb(255, 0, 255)",
+		"bus": "rgb(0, 0, 132)",
+		"bus_junction": "rgb(0, 0, 132)",
+		"component_body": "rgb(255, 255, 194)",
+		"component_outline": "rgb(132, 0, 0)",
+		"cursor": "rgb(15, 15, 15)",
+		"fields": "rgb(132, 0, 132)",
+		"grid": "rgb(181, 181, 181)",
+		"grid_axes": "rgb(0, 0, 132)",
+		"hidden": "rgb(94, 194, 194)",
+		"hovered": "rgb(0, 0, 255)",
+		"junction": "rgb(0, 150, 0)",
+		"label_global": "rgb(132, 0, 0)",
+		"label_hier": "rgb(114, 86, 0)",
+		"label_local": "rgb(15, 15, 15)",
+		"netclass_flag": "rgb(72, 72, 72)",
+		"no_connect": "rgb(0, 0, 132)",
+		"note": "rgb(0, 0, 194)",
+		"note_background": "rgba(0, 0, 0, 0.000)",
+		"override_item_colors": false,
+		"page_limits": "rgb(181, 181, 181)",
+		"pin": "rgb(132, 0, 0)",
+		"pin_name": "rgb(0, 100, 100)",
+		"pin_number": "rgb(169, 0, 0)",
+		"private_note": "rgb(72, 72, 255)",
+		"reference": "rgb(0, 100, 100)",
+		"shadow": "rgba(102, 179, 255, 0.800)",
+		"sheet": "rgb(132, 0, 0)",
+		"sheet_background": "rgba(255, 255, 255, 0.000)",
+		"sheet_fields": "rgb(132, 0, 132)",
+		"sheet_filename": "rgb(114, 86, 0)",
+		"sheet_label": "rgb(0, 100, 100)",
+		"sheet_name": "rgb(0, 100, 100)",
+		"value": "rgb(0, 100, 100)",
+		"wire": "rgb(0, 150, 0)",
+		"worksheet": "rgb(132, 0, 0)"
+	}
 }
 endef
 
 
 define bom2csv_xsl
 <!--XSL style sheet to convert EESCHEMA XML Partlist Format to grouped CSV BOM Format
-    Copyright (C) 2014, Wolf Walter.
-    Copyright (C) 2013, Stefan Helmert.
-    GPL v2.
+		Copyright (C) 2014, Wolf Walter.
+		Copyright (C) 2013, Stefan Helmert.
+		GPL v2.
 -->
 
 <!DOCTYPE xsl:stylesheet [
-  <!ENTITY nl  "&#xd;&#xa;">    <!--new line CR, LF, or LF, your choice -->
+	<!ENTITY nl  "&#xd;&#xa;">    <!--new line CR, LF, or LF, your choice -->
 ]>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-  <xsl:output method="text"/>
-  <xsl:key name="partTypeByValueAndFootprint" match="comp" use="concat(footprint, '-', value)" />
-  <xsl:key name="headentr" match="field" use="@name"/>
+	<xsl:output method="text"/>
+	<xsl:key name="partTypeByValueAndFootprint" match="comp" use="concat(footprint, '-', value)" />
+	<xsl:key name="headentr" match="field" use="@name"/>
 
-  <xsl:template match="/export">
-    <xsl:text>References, Value, Footprint, Qty</xsl:text>
-    <xsl:apply-templates select="components"/>
-  </xsl:template>
+	<xsl:template match="/export">
+		<xsl:text>References, Value, Footprint, Qty</xsl:text>
+		<xsl:apply-templates select="components"/>
+	</xsl:template>
 
-  <xsl:template match="components">
-    <!-- for Muenchian grouping of footprint and value combination -->
-    <xsl:for-each select="comp[count(. | key('partTypeByValueAndFootprint', concat(footprint, '-', value))[1]) = 1]">
-      <!-- <xsl:sort select="@ref" /> -->
-      <xsl:text>&nl;</xsl:text>
-      <!-- list of all references -->
-      <xsl:for-each select="key('partTypeByValueAndFootprint', concat(footprint, '-', value))">
-        <!-- <xsl:sort select="@ref" /> -->
-        <xsl:value-of select="@ref"/>
-        <xsl:text> </xsl:text>
-      </xsl:for-each>
-      <xsl:text>,"</xsl:text>
-      <xsl:value-of select="value"/>
-      <xsl:for-each select="fields/field[@name='ValueAlt']">
-        <xsl:text> (Alternatives: </xsl:text>
-        <xsl:value-of select="."/>
-        <xsl:text>)</xsl:text>
-      </xsl:for-each>
-      <xsl:text>","</xsl:text>
-      <xsl:value-of select="footprint"/>
-      <xsl:text>",</xsl:text>
-      <xsl:value-of select="count(key('partTypeByValueAndFootprint', concat(footprint, '-', value)))"/>
-    </xsl:for-each>
-  </xsl:template>
+	<xsl:template match="components">
+		<!-- for Muenchian grouping of footprint and value combination -->
+		<xsl:for-each select="comp[count(. | key('partTypeByValueAndFootprint', concat(footprint, '-', value))[1]) = 1]">
+			<!-- <xsl:sort select="@ref" /> -->
+			<xsl:text>&nl;</xsl:text>
+			<!-- list of all references -->
+			<xsl:for-each select="key('partTypeByValueAndFootprint', concat(footprint, '-', value))">
+				<!-- <xsl:sort select="@ref" /> -->
+				<xsl:value-of select="@ref"/>
+				<xsl:text> </xsl:text>
+			</xsl:for-each>
+			<xsl:text>,"</xsl:text>
+			<xsl:value-of select="value"/>
+			<xsl:for-each select="fields/field[@name='ValueAlt']">
+				<xsl:text> (Alternatives: </xsl:text>
+				<xsl:value-of select="."/>
+				<xsl:text>)</xsl:text>
+			</xsl:for-each>
+			<xsl:text>","</xsl:text>
+			<xsl:value-of select="footprint"/>
+			<xsl:text>",</xsl:text>
+			<xsl:value-of select="count(key('partTypeByValueAndFootprint', concat(footprint, '-', value)))"/>
+		</xsl:for-each>
+	</xsl:template>
  </xsl:stylesheet>
 endef
 
@@ -319,18 +333,18 @@ endef
 
 define bom_rst_style
 pageSetup:
-  spacing-footer: 0mm
-  spacing-header: 0mm
-  margin-bottom: 5mm
-  margin-gutter: 0mm
-  margin-left: 7mm
-  margin-right: 7mm
-  margin-top: 5mm
+	spacing-footer: 0mm
+	spacing-header: 0mm
+	margin-bottom: 5mm
+	margin-gutter: 0mm
+	margin-left: 7mm
+	margin-right: 7mm
+	margin-top: 5mm
 styles:
-  base
-    fontSize: 9
-  table-heading:
-    fontName: stdBold
+	base
+		fontSize: 9
+	table-heading:
+		fontName: stdBold
 endef
 
 
