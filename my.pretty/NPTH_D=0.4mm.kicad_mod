@@ -1,22 +1,101 @@
-(footprint "NPTH_D=0.4mm" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0936efd7-09b4-4c57-abe6-cad098f904b1)
-  )
-  (fp_text value "NPTH_D=0.4mm" (at 0 1 unlocked) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 5e9c6234-7ccf-4be8-b2a9-8216af86961e)
-  )
-  (fp_text user "${VALUE}" (at 0 0) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 27ec11d6-2c3c-4938-a7e1-972f6590d446)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 1c136ffd-4388-48f0-8e52-a6d9362370d9)
-  )
-  (pad "" np_thru_hole circle (at 0 0) (size 0.42 0.42) (drill 0.4) (layers *.Mask) (tstamp 0e46289b-4c60-4910-b2c1-92c6f6579e44))
+(footprint "NPTH_D=0.4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0936efd7-09b4-4c57-abe6-cad098f904b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NPTH_D=0.4mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e9c6234-7ccf-4be8-b2a9-8216af86961e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75b6aa35-c1c3-4de4-a5d3-d9781433e023")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90636933-4773-4b80-8d5d-3a054eeae38e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "066c3a05-bf23-4fc5-a1fd-2daf59fa32e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole allow_missing_courtyard)
+	(fp_text user "${VALUE}"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "27ec11d6-2c3c-4938-a7e1-972f6590d446")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c136ffd-4388-48f0-8e52-a6d9362370d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.42 0.42)
+		(drill 0.4)
+		(layers "*.Mask")
+		(uuid "0e46289b-4c60-4910-b2c1-92c6f6579e44")
+	)
 )
