@@ -29119,7 +29119,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -36.195 113.03 0)
+			(at -37.465 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29128,7 +29128,7 @@
 			)
 		)
 		(property "Value" "EP1K50QC208"
-			(at 34.29 113.665 0)
+			(at 33.02 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29137,7 +29137,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-208_28x28mm_P0.5mm"
-			(at -21.59 -0.635 0)
+			(at -22.86 -0.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29147,7 +29147,7 @@
 			)
 		)
 		(property "Datasheet" "Altera"
-			(at -21.59 -0.635 0)
+			(at -22.86 -0.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29157,7 +29157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29192,14 +29192,14 @@
 				(name "TCK"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29210,14 +29210,14 @@
 				(name "IO/CLKUSR"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29228,14 +29228,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "100"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29246,14 +29246,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "101"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29264,14 +29264,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "102"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29282,14 +29282,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "103"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29300,14 +29300,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "104"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29318,14 +29318,14 @@
 				(name "nCONFIG"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "105"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29336,14 +29336,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "106"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29354,14 +29354,14 @@
 				(name "MSEL1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "107"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29372,14 +29372,14 @@
 				(name "MSEL0"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "108"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29390,14 +29390,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "109"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29408,14 +29408,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29426,14 +29426,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "110"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29444,14 +29444,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "111"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29462,14 +29462,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "112"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29480,14 +29480,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "113"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29498,14 +29498,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "114"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29516,14 +29516,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "115"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29534,14 +29534,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "116"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29552,14 +29552,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "117"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29570,14 +29570,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "118"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29588,14 +29588,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "119"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29606,14 +29606,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29624,14 +29624,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "120"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29642,14 +29642,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "121"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29660,14 +29660,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "122"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29678,14 +29678,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "123"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29696,14 +29696,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "124"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29714,14 +29714,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "125"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29732,14 +29732,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "126"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29750,14 +29750,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "127"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29768,14 +29768,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "128"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29786,14 +29786,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "129"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29804,14 +29804,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29822,14 +29822,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "130"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29840,14 +29840,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "131"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29858,14 +29858,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "132"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29876,14 +29876,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "133"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29894,14 +29894,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "134"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29912,14 +29912,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "135"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29930,14 +29930,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "136"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29948,14 +29948,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "137"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29966,14 +29966,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "138"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -29984,14 +29984,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "139"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30002,14 +30002,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30020,14 +30020,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "140"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30038,14 +30038,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "141"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30056,14 +30056,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "142"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30074,14 +30074,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "143"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30092,14 +30092,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "144"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30110,14 +30110,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "145"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30128,14 +30128,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "146"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30146,14 +30146,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "147"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30164,14 +30164,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "148"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30182,14 +30182,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "149"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30200,14 +30200,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30218,14 +30218,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "150"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30236,14 +30236,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "151"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30254,14 +30254,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "152"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30272,14 +30272,14 @@
 				(name "TDI"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "153"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30290,14 +30290,14 @@
 				(name "nCE"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "154"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30308,14 +30308,14 @@
 				(name "DCLK"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "155"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30326,14 +30326,14 @@
 				(name "DATA0"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "156"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30344,14 +30344,14 @@
 				(name "IO/DATA1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "157"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30362,14 +30362,14 @@
 				(name "IO/DATA2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "158"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30380,14 +30380,14 @@
 				(name "IO/DATA3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "159"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30398,14 +30398,14 @@
 				(name "IO/RDYnBUSY"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30416,14 +30416,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "160"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30434,14 +30434,14 @@
 				(name "IO/DATA4"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "161"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30452,14 +30452,14 @@
 				(name "IO/DATA5"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "162"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30470,14 +30470,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "163"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30488,14 +30488,14 @@
 				(name "IO/DATA6"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "164"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30506,14 +30506,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "165"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30524,14 +30524,14 @@
 				(name "IO/DATA7"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "166"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30542,14 +30542,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "167"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30560,14 +30560,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "168"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30578,14 +30578,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "169"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30596,14 +30596,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "17"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30614,14 +30614,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "170"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30632,14 +30632,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "171"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30650,14 +30650,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "172"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30668,14 +30668,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "173"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30686,14 +30686,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "174"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30704,14 +30704,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "175"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30722,14 +30722,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "176"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30740,14 +30740,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "177"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30758,14 +30758,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "178"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30776,14 +30776,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "179"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30794,14 +30794,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "18"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30812,14 +30812,14 @@
 				(name "IO/DEV_CLRn"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "180"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30830,14 +30830,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "181"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30848,14 +30848,14 @@
 				(name "Dedicated_Input"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "182"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30866,14 +30866,14 @@
 				(name "Dedicated_Clock"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "183"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30884,14 +30884,14 @@
 				(name "Dedicated_Input"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "184"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30902,14 +30902,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "185"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30920,14 +30920,14 @@
 				(name "IO/DEV_OE"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "186"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30938,14 +30938,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "187"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30956,14 +30956,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "188"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30974,14 +30974,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "189"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -30992,14 +30992,14 @@
 				(name "IO/INIT_DONE"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "19"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31010,14 +31010,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "190"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31028,14 +31028,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "191"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31046,14 +31046,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "192"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31064,14 +31064,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "193"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31082,14 +31082,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "194"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31100,14 +31100,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "195"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31118,14 +31118,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "196"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31136,14 +31136,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "197"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31154,14 +31154,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "198"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31172,14 +31172,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "199"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31190,14 +31190,14 @@
 				(name "CONF_DONE"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31208,14 +31208,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "20"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31226,14 +31226,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "200"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31244,14 +31244,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "201"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31262,14 +31262,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "202"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31280,14 +31280,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "203"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31298,14 +31298,14 @@
 				(name "IO/nRS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "204"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31316,14 +31316,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "205"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31334,14 +31334,14 @@
 				(name "IO/nWS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "206"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31352,14 +31352,14 @@
 				(name "IO/CS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "207"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31370,14 +31370,14 @@
 				(name "IO/nCS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "208"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31388,14 +31388,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "21"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31406,14 +31406,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "22"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31424,14 +31424,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "23"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31442,14 +31442,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "24"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31460,14 +31460,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "25"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31478,14 +31478,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "26"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31496,14 +31496,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "27"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31514,14 +31514,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "28"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31532,14 +31532,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "29"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31550,14 +31550,14 @@
 				(name "nCEO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31568,14 +31568,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "30"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31586,14 +31586,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "31"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31604,14 +31604,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "32"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31622,14 +31622,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "33"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31640,14 +31640,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "34"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31658,14 +31658,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "35"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31676,14 +31676,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "36"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31694,14 +31694,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "37"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31712,14 +31712,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "38"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31730,14 +31730,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "39"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31748,14 +31748,14 @@
 				(name "TDO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31766,14 +31766,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "40"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31784,14 +31784,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "41"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31802,14 +31802,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "42"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31820,14 +31820,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "43"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31838,14 +31838,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "44"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31856,14 +31856,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "45"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31874,14 +31874,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "46"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31892,14 +31892,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "47"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31910,14 +31910,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "48"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31928,14 +31928,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "49"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31946,14 +31946,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31964,14 +31964,14 @@
 				(name "TMS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "50"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -31982,14 +31982,14 @@
 				(name "TRST"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "51"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32000,14 +32000,14 @@
 				(name "nSTATUS"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "52"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32018,14 +32018,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "53"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32036,14 +32036,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "54"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32054,14 +32054,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "55"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32072,14 +32072,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "56"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32090,14 +32090,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "57"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32108,14 +32108,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "58"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32126,14 +32126,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "59"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32144,14 +32144,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32162,14 +32162,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "60"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32180,14 +32180,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "61"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32198,14 +32198,14 @@
 				(name "IO/LOCK"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "62"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32216,14 +32216,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "63"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32234,14 +32234,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "64"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32252,14 +32252,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "65"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32270,14 +32270,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "66"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32288,14 +32288,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "67"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32306,14 +32306,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "68"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32324,14 +32324,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "69"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32342,14 +32342,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32360,14 +32360,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "70"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32378,14 +32378,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "71"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32396,14 +32396,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "72"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32414,14 +32414,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "73"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32432,14 +32432,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "74"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32450,14 +32450,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "75"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32468,14 +32468,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "76"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32486,14 +32486,14 @@
 				(name "VCC_CKLK"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "77"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32504,14 +32504,14 @@
 				(name "Dedicated_Input"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "78"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32522,14 +32522,14 @@
 				(name "Dedicated_Clock/GCLK1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "79"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32540,14 +32540,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32558,14 +32558,14 @@
 				(name "Dedicated_Input"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "80"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32576,14 +32576,14 @@
 				(name "GND_CKLK"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "81"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32594,14 +32594,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "82"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32612,14 +32612,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "83"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32630,14 +32630,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "84"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32648,14 +32648,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "85"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32666,14 +32666,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "86"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32684,14 +32684,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "87"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32702,14 +32702,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "88"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32720,14 +32720,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "89"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32738,14 +32738,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32756,14 +32756,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "90"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32774,14 +32774,14 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "91"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32792,14 +32792,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "92"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32810,14 +32810,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "93"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32828,14 +32828,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "94"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32846,14 +32846,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "95"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32864,14 +32864,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "96"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32882,14 +32882,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "97"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32900,14 +32900,14 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "98"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -32918,14 +32918,14 @@
 				(name "IO"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "99"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50060,7 +50060,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50078,7 +50078,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50096,7 +50096,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50114,7 +50114,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50132,7 +50132,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50150,7 +50150,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50168,7 +50168,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50186,7 +50186,7 @@
 				(name "TMS"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50204,7 +50204,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50222,7 +50222,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50240,7 +50240,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50258,7 +50258,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50276,7 +50276,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50294,7 +50294,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50312,7 +50312,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50330,7 +50330,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50348,7 +50348,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50366,7 +50366,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50384,7 +50384,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50402,7 +50402,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50420,7 +50420,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50438,7 +50438,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50456,7 +50456,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50474,7 +50474,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50492,7 +50492,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50510,7 +50510,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50528,7 +50528,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50546,7 +50546,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50564,7 +50564,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50582,7 +50582,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50600,7 +50600,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50618,7 +50618,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50636,7 +50636,7 @@
 				(name "GNDINT"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50654,7 +50654,7 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50672,7 +50672,7 @@
 				(name "TDI"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50690,7 +50690,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50708,7 +50708,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50726,7 +50726,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50744,7 +50744,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50762,7 +50762,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50780,7 +50780,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50798,7 +50798,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50816,7 +50816,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50834,7 +50834,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50852,7 +50852,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50870,7 +50870,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50888,7 +50888,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50906,7 +50906,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50924,7 +50924,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50942,7 +50942,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50960,7 +50960,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50978,7 +50978,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -50996,7 +50996,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51014,7 +51014,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51032,7 +51032,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51050,7 +51050,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51068,7 +51068,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51086,7 +51086,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51104,7 +51104,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51122,7 +51122,7 @@
 				(name "TCK"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51140,7 +51140,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51158,7 +51158,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51176,7 +51176,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51194,7 +51194,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51212,7 +51212,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51230,7 +51230,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51248,7 +51248,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51266,7 +51266,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51284,7 +51284,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51302,7 +51302,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51320,7 +51320,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51338,7 +51338,7 @@
 				(name "TDO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51356,7 +51356,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51374,7 +51374,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51392,7 +51392,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51410,7 +51410,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51428,7 +51428,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51446,7 +51446,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51464,7 +51464,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51482,7 +51482,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51500,7 +51500,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51518,7 +51518,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51536,7 +51536,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51554,7 +51554,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51572,7 +51572,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51590,7 +51590,7 @@
 				(name "GNDINT"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51608,7 +51608,7 @@
 				(name "GCLK1"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51626,7 +51626,7 @@
 				(name "OE1"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51644,7 +51644,7 @@
 				(name "GCLRn"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51662,7 +51662,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51680,7 +51680,7 @@
 				(name "OE2/GCLK2"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51698,7 +51698,7 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51716,7 +51716,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51734,7 +51734,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51752,7 +51752,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51770,7 +51770,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51788,7 +51788,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51806,7 +51806,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51824,7 +51824,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -51842,7 +51842,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -52902,7 +52902,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -52920,7 +52920,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -52938,7 +52938,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -52956,7 +52956,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -52974,7 +52974,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -52992,7 +52992,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53010,7 +53010,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53028,7 +53028,7 @@
 				(name "TMS"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53046,7 +53046,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53064,7 +53064,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53082,7 +53082,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53100,7 +53100,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53118,7 +53118,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53136,7 +53136,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53154,7 +53154,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53172,7 +53172,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53190,7 +53190,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53208,7 +53208,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53226,7 +53226,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53244,7 +53244,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53262,7 +53262,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53280,7 +53280,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53298,7 +53298,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53316,7 +53316,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53334,7 +53334,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53352,7 +53352,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53370,7 +53370,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53388,7 +53388,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53406,7 +53406,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53424,7 +53424,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53442,7 +53442,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53460,7 +53460,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53478,7 +53478,7 @@
 				(name "GNDINT"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53496,7 +53496,7 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53514,7 +53514,7 @@
 				(name "TDI"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53532,7 +53532,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53550,7 +53550,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53568,7 +53568,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53586,7 +53586,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53604,7 +53604,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53622,7 +53622,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53640,7 +53640,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53658,7 +53658,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53676,7 +53676,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53694,7 +53694,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53712,7 +53712,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53730,7 +53730,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53748,7 +53748,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53766,7 +53766,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53784,7 +53784,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53802,7 +53802,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53820,7 +53820,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53838,7 +53838,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53856,7 +53856,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53874,7 +53874,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53892,7 +53892,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53910,7 +53910,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53928,7 +53928,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53946,7 +53946,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53964,7 +53964,7 @@
 				(name "TCK"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -53982,7 +53982,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54000,7 +54000,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54018,7 +54018,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54036,7 +54036,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54054,7 +54054,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54072,7 +54072,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54090,7 +54090,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54108,7 +54108,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54126,7 +54126,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54144,7 +54144,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54162,7 +54162,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54180,7 +54180,7 @@
 				(name "TDO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54198,7 +54198,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54216,7 +54216,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54234,7 +54234,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54252,7 +54252,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54270,7 +54270,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54288,7 +54288,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54306,7 +54306,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54324,7 +54324,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54342,7 +54342,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54360,7 +54360,7 @@
 				(name "VCCIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54378,7 +54378,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54396,7 +54396,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54414,7 +54414,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54432,7 +54432,7 @@
 				(name "GNDINT"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54450,7 +54450,7 @@
 				(name "GCLK1"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54468,7 +54468,7 @@
 				(name "OE1"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54486,7 +54486,7 @@
 				(name "GCLRn"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54504,7 +54504,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54522,7 +54522,7 @@
 				(name "OE2/GCLK2"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54540,7 +54540,7 @@
 				(name "VCCINT"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54558,7 +54558,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54576,7 +54576,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54594,7 +54594,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54612,7 +54612,7 @@
 				(name "GNDIO"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54630,7 +54630,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54648,7 +54648,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54666,7 +54666,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -54684,7 +54684,7 @@
 				(name "I/O"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -67494,6 +67494,9 @@
 		)
 	)
 	(symbol "FT812"
+		(pin_names
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -76600,6 +76603,870 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "MA8201"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -15.748 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MA8201"
+			(at 12.954 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:MQFP-44_10x10mm_P0.8mm"
+			(at 12.954 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 12.954 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 12.954 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*QFP-44*P0.8mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MA8201_0_0"
+			(pin no_connect line
+				(at -21.59 -16.51 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 0 0)
+				(length 5.08)
+				(name "SDATA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 1.27 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 7.62 0)
+				(length 5.08)
+				(name "BSYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 31.75 270)
+				(length 5.08)
+				(name "DVDD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 -6.35 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -31.75 90)
+				(length 5.08)
+				(name "DGND1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 21.59 -1.27 180)
+				(length 5.08)
+				(name "XTALO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 21.59 -3.81 180)
+				(length 5.08)
+				(name "XTALI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 -8.89 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 31.75 270)
+				(length 5.08)
+				(name "DVDD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -21.59 -19.05 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 -11.43 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -31.75 90)
+				(length 5.08)
+				(name "DGND2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -21.59 10.16 0)
+				(length 5.08)
+				(name "XCS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 -13.97 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 -16.51 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 -19.05 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 12.7 0)
+				(length 5.08)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 15.24 0)
+				(length 5.08)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -21.59 17.78 0)
+				(length 5.08)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 -21.59 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at -21.59 -2.54 0)
+				(length 5.08)
+				(name "XRESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -8.89 0)
+				(length 5.08)
+				(name "TEST0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -21.59 -11.43 0)
+				(length 5.08)
+				(name "TEST1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -21.59 -13.97 0)
+				(length 5.08)
+				(name "TEST2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 -24.13 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -31.75 90)
+				(length 5.08)
+				(name "AGND1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 31.75 270)
+				(length 5.08)
+				(name "AVDD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 21.59 15.24 180)
+				(length 5.08)
+				(name "RIGHT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -31.75 90)
+				(length 5.08)
+				(name "AGND34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -31.75 90)
+				(length 5.08)
+				(name "GBGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 21.59 12.7 180)
+				(length 5.08)
+				(name "GBUF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -31.75 90)
+				(length 5.08)
+				(name "DGND3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 31.75 270)
+				(length 5.08)
+				(name "GBVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 21.59 5.08 180)
+				(length 5.08)
+				(name "RCAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 31.75 270)
+				(length 5.08)
+				(name "AVDD45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 21.59 17.78 180)
+				(length 5.08)
+				(name "LEFT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -31.75 90)
+				(length 5.08)
+				(name "AGND56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -21.59 -21.59 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 31.75 270)
+				(length 5.08)
+				(name "DVDD3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -21.59 -24.13 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -21.59 5.08 0)
+				(length 5.08)
+				(name "DREQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -21.59 2.54 0)
+				(length 5.08)
+				(name "DCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MA8201_1_1"
+			(rectangle
+				(start -16.51 26.67)
+				(end 16.51 -26.67)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -95252,8 +96119,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at -1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95279,7 +96146,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*SO*16*"
+		(property "ki_fp_filters" "*SO*-16*P1.27mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95288,22 +96155,20 @@
 				(hide yes)
 			)
 		)
-		(symbol "TDA1543T_0_1"
+		(symbol "TDA1543T_1_1"
 			(rectangle
-				(start -8.89 5.08)
-				(end 10.16 -5.08)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "TDA1543T_1_1"
 			(pin passive line
-				(at -3.81 7.62 270)
+				(at -6.35 7.62 270)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -95321,7 +96186,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -7.62 90)
+				(at -3.81 -7.62 90)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -95339,8 +96204,8 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -3.81 180)
-				(length 3.81)
+				(at 0 7.62 270)
+				(length 2.54)
 				(name "VDD"
 					(effects
 						(font
@@ -95357,8 +96222,8 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -1.27 180)
-				(length 3.81)
+				(at 10.16 -2.54 180)
+				(length 2.54)
 				(name "AOL"
 					(effects
 						(font
@@ -95375,8 +96240,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 1.27 180)
-				(length 3.81)
+				(at 10.16 0 180)
+				(length 2.54)
 				(name "VREF"
 					(effects
 						(font
@@ -95393,8 +96258,8 @@
 				)
 			)
 			(pin output line
-				(at 13.97 3.81 180)
-				(length 3.81)
+				(at 10.16 2.54 180)
+				(length 2.54)
 				(name "AOR"
 					(effects
 						(font
@@ -95403,24 +96268,6 @@
 					)
 				)
 				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 1.27 -7.62 90)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -95438,6 +96285,24 @@
 						)
 					)
 				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -7.62 90)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "16"
 					(effects
 						(font
@@ -95447,7 +96312,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 7.62 270)
+				(at -3.81 7.62 270)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -95465,8 +96330,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 3.81 0)
-				(length 3.81)
+				(at -10.16 2.54 0)
+				(length 2.54)
 				(name "BCK"
 					(effects
 						(font
@@ -95483,8 +96348,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 1.27 0)
-				(length 3.81)
+				(at -10.16 0 0)
+				(length 2.54)
 				(name "WS"
 					(effects
 						(font
@@ -95501,8 +96366,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
-				(length 3.81)
+				(at -10.16 -2.54 0)
+				(length 2.54)
 				(name "DATA"
 					(effects
 						(font
@@ -95519,8 +96384,8 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -3.81 0)
-				(length 3.81)
+				(at 0 -7.62 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -95529,24 +96394,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 1.27 7.62 270)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -95564,6 +96411,24 @@
 						)
 					)
 				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 7.62 270)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "8"
 					(effects
 						(font
@@ -95573,7 +96438,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -7.62 90)
+				(at -6.35 -7.62 90)
 				(length 2.54) hide
 				(name "NC"
 					(effects
