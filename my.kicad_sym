@@ -49915,7 +49915,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 1.778 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -49923,7 +49923,7 @@
 			)
 		)
 		(property "Value" "EPM3064ATC100"
-			(at 0 -5.08 0)
+			(at 0 -3.302 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -49966,84 +49966,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "EPM3064ATC100_0_0"
-			(text "A"
-				(at -12.7 12.7 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "B"
-				(at -12.7 -13.97 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "C"
-				(at -12.7 -40.64 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "D"
-				(at 12.7 -46.99 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "E"
-				(at 12.7 -20.32 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "F"
-				(at 12.7 3.81 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "G"
-				(at 12.7 25.4 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "H"
-				(at 12.7 46.99 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-		)
 		(symbol "EPM3064ATC100_1_0"
 			(rectangle
-				(start -20.32 62.23)
-				(end 20.32 -62.23)
+				(start -20.32 58.42)
+				(end 20.32 -58.42)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -50055,7 +49981,7 @@
 		)
 		(symbol "EPM3064ATC100_1_1"
 			(pin no_connect line
-				(at -25.4 24.13 0)
+				(at -25.4 49.53 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50073,7 +49999,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -16.51 0)
+				(at -25.4 29.21 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50091,7 +50017,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 1.27 0)
+				(at 25.4 -49.53 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50109,7 +50035,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -67.31 90)
+				(at -13.97 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -50127,7 +50053,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -19.05 0)
+				(at -25.4 26.67 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50145,7 +50071,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -21.59 0)
+				(at -25.4 24.13 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50163,7 +50089,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -24.13 0)
+				(at -25.4 21.59 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50181,7 +50107,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 38.1 0)
+				(at -25.4 19.05 0)
 				(length 5.08)
 				(name "TMS"
 					(effects
@@ -50199,7 +50125,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -30.48 0)
+				(at -25.4 16.51 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50217,7 +50143,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -33.02 0)
+				(at -25.4 13.97 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50235,7 +50161,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 67.31 270)
+				(at -7.62 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -50253,7 +50179,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -35.56 0)
+				(at -25.4 11.43 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50271,7 +50197,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -25.4 21.59 0)
+				(at -25.4 46.99 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50289,7 +50215,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -38.1 0)
+				(at -25.4 8.89 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50307,7 +50233,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -40.64 0)
+				(at -25.4 6.35 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50325,7 +50251,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -25.4 -43.18 0)
+				(at -25.4 3.81 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50343,7 +50269,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -45.72 0)
+				(at -25.4 1.27 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50361,7 +50287,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -25.4 -48.26 0)
+				(at -25.4 -1.27 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50379,7 +50305,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -50.8 0)
+				(at -25.4 -3.81 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50397,7 +50323,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 -67.31 90)
+				(at -11.43 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -50415,7 +50341,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 -55.88 180)
+				(at -25.4 -6.35 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50433,7 +50359,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 -53.34 180)
+				(at -25.4 -8.89 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50451,7 +50377,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -50.8 180)
+				(at -25.4 -11.43 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50469,7 +50395,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 67.31 270)
+				(at -10.16 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -50487,7 +50413,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -48.26 180)
+				(at -25.4 -13.97 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50505,7 +50431,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -45.72 180)
+				(at -25.4 -16.51 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50523,7 +50449,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -43.18 180)
+				(at -25.4 -19.05 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50541,7 +50467,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -67.31 90)
+				(at -8.89 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -50559,7 +50485,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 67.31 270)
+				(at -5.08 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -50577,7 +50503,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -40.64 180)
+				(at -25.4 -21.59 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50595,7 +50521,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -38.1 180)
+				(at -25.4 -24.13 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50613,7 +50539,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -35.56 180)
+				(at -25.4 -26.67 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50631,7 +50557,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -67.31 90)
+				(at 11.43 -63.5 90)
 				(length 5.08)
 				(name "GNDINT"
 					(effects
@@ -50649,7 +50575,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 67.31 270)
+				(at 5.08 63.5 270)
 				(length 5.08)
 				(name "VCCINT"
 					(effects
@@ -50667,7 +50593,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 40.64 0)
+				(at -25.4 44.45 0)
 				(length 5.08)
 				(name "TDI"
 					(effects
@@ -50685,7 +50611,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -31.75 180)
+				(at -25.4 -29.21 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50703,7 +50629,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -29.21 180)
+				(at -25.4 -31.75 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50721,7 +50647,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -26.67 180)
+				(at -25.4 -34.29 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50739,7 +50665,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -67.31 90)
+				(at -6.35 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -50757,7 +50683,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -24.13 180)
+				(at -25.4 -36.83 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50775,7 +50701,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -21.59 180)
+				(at -25.4 -39.37 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50793,7 +50719,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -19.05 180)
+				(at -25.4 -41.91 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50811,7 +50737,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -16.51 180)
+				(at -25.4 -44.45 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50829,7 +50755,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -13.97 180)
+				(at -25.4 -46.99 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50847,7 +50773,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 -11.43 180)
+				(at -25.4 -49.53 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50865,7 +50791,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -25.4 -3.81 0)
+				(at -25.4 41.91 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50883,7 +50809,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 -8.89 180)
+				(at 25.4 49.53 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50901,7 +50827,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 67.31 270)
+				(at -2.54 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -50919,7 +50845,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -5.08 180)
+				(at 25.4 46.99 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50937,7 +50863,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -67.31 90)
+				(at -3.81 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -50955,7 +50881,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -2.54 180)
+				(at 25.4 44.45 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50973,7 +50899,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 0 180)
+				(at 25.4 41.91 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -50991,7 +50917,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 2.54 180)
+				(at 25.4 39.37 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51009,7 +50935,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 5.08 180)
+				(at 25.4 36.83 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51027,7 +50953,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 7.62 180)
+				(at 25.4 34.29 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51045,7 +50971,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 -67.31 90)
+				(at -1.27 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -51063,7 +50989,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -6.35 0)
+				(at -25.4 39.37 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51081,7 +51007,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 10.16 180)
+				(at 25.4 31.75 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51099,7 +51025,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 12.7 180)
+				(at 25.4 29.21 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51117,7 +51043,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 35.56 0)
+				(at 25.4 26.67 180)
 				(length 5.08)
 				(name "TCK"
 					(effects
@@ -51135,7 +51061,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 16.51 180)
+				(at 25.4 24.13 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51153,7 +51079,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 19.05 180)
+				(at 25.4 21.59 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51171,7 +51097,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -67.31 90)
+				(at 1.27 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -51189,7 +51115,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 67.31 270)
+				(at 0 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -51207,7 +51133,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 21.59 180)
+				(at 25.4 19.05 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51225,7 +51151,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 24.13 180)
+				(at 25.4 16.51 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51243,7 +51169,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 26.67 180)
+				(at 25.4 13.97 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51261,7 +51187,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -25.4 -8.89 0)
+				(at -25.4 36.83 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51279,7 +51205,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 29.21 180)
+				(at 25.4 11.43 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51297,7 +51223,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 31.75 180)
+				(at 25.4 8.89 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51315,7 +51241,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 34.29 180)
+				(at 25.4 6.35 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51333,7 +51259,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 33.02 0)
+				(at 25.4 3.81 180)
 				(length 5.08)
 				(name "TDO"
 					(effects
@@ -51351,7 +51277,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 -67.31 90)
+				(at 3.81 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -51369,7 +51295,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 38.1 180)
+				(at 25.4 1.27 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51387,7 +51313,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 40.64 180)
+				(at 25.4 -1.27 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51405,7 +51331,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 25.4 43.18 180)
+				(at 25.4 -3.81 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51423,7 +51349,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 -67.31 90)
+				(at 6.35 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -51441,7 +51367,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 45.72 180)
+				(at 25.4 -6.35 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51459,7 +51385,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -11.43 0)
+				(at -25.4 34.29 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51477,7 +51403,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 48.26 180)
+				(at 25.4 -8.89 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51495,7 +51421,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 50.8 180)
+				(at 25.4 -11.43 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51513,7 +51439,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 67.31 270)
+				(at 2.54 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -51531,7 +51457,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 53.34 180)
+				(at 25.4 -13.97 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51549,7 +51475,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 55.88 180)
+				(at 25.4 -16.51 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51567,7 +51493,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 58.42 180)
+				(at 25.4 -19.05 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51585,7 +51511,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -67.31 90)
+				(at 13.97 -63.5 90)
 				(length 5.08)
 				(name "GNDINT"
 					(effects
@@ -51603,7 +51529,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 53.34 0)
+				(at 25.4 -21.59 180)
 				(length 5.08)
 				(name "GCLK1"
 					(effects
@@ -51621,7 +51547,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 50.8 0)
+				(at 25.4 -24.13 180)
 				(length 5.08)
 				(name "OE1"
 					(effects
@@ -51639,7 +51565,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 48.26 0)
+				(at 25.4 -26.67 180)
 				(length 5.08)
 				(name "GCLRn"
 					(effects
@@ -51657,7 +51583,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -13.97 0)
+				(at -25.4 31.75 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51675,7 +51601,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 45.72 0)
+				(at 25.4 -29.21 180)
 				(length 5.08)
 				(name "OE2/GCLK2"
 					(effects
@@ -51693,7 +51619,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 67.31 270)
+				(at 7.62 63.5 270)
 				(length 5.08)
 				(name "VCCINT"
 					(effects
@@ -51711,7 +51637,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 19.05 0)
+				(at 25.4 -31.75 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51729,7 +51655,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 16.51 0)
+				(at 25.4 -34.29 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51747,7 +51673,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 13.97 0)
+				(at 25.4 -36.83 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51765,7 +51691,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -67.31 90)
+				(at 8.89 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -51783,7 +51709,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 11.43 0)
+				(at 25.4 -39.37 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51801,7 +51727,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 8.89 0)
+				(at 25.4 -41.91 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51819,7 +51745,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 6.35 0)
+				(at 25.4 -44.45 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51837,7 +51763,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 3.81 0)
+				(at 25.4 -46.99 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51863,8 +51789,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U29"
-			(at -13.335 33.02 0)
+		(property "Reference" "U?"
+			(at 0.254 2.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -51872,7 +51798,7 @@
 			)
 		)
 		(property "Value" "EPM3064ATC44"
-			(at 15.24 33.02 0)
+			(at -0.254 -2.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -51889,11 +51815,12 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -51907,8 +51834,8 @@
 		)
 		(symbol "EPM3064ATC44_0_0"
 			(rectangle
-				(start -13.97 31.75)
-				(end 13.97 -30.48)
+				(start -13.97 27.94)
+				(end 13.97 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
@@ -51917,46 +51844,10 @@
 					(type background)
 				)
 			)
-			(text "A"
-				(at -5.08 -16.51 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "B"
-				(at 5.08 -16.51 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "C"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "D"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
 		)
 		(symbol "EPM3064ATC44_1_1"
 			(pin input line
-				(at -19.05 12.7 0)
+				(at -19.05 20.32 0)
 				(length 5.08)
 				(name "TDI"
 					(effects
@@ -51974,7 +51865,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -13.97 180)
+				(at -19.05 2.54 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -51993,7 +51884,7 @@
 			)
 			(pin input line
 				(at -3.81 -33.02 90)
-				(length 2.54)
+				(length 5.08)
 				(name "GNDIO"
 					(effects
 						(font
@@ -52010,7 +51901,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -16.51 180)
+				(at -19.05 0 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52028,7 +51919,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -19.05 180)
+				(at -19.05 -2.54 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52046,7 +51937,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -21.59 180)
+				(at -19.05 -5.08 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52064,7 +51955,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -24.13 180)
+				(at -19.05 -7.62 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52083,7 +51974,7 @@
 			)
 			(pin input line
 				(at 3.81 -33.02 90)
-				(length 2.54)
+				(length 5.08)
 				(name "GNDINT"
 					(effects
 						(font
@@ -52100,8 +51991,8 @@
 				)
 			)
 			(pin input line
-				(at 1.27 34.29 270)
-				(length 2.54)
+				(at 1.27 33.02 270)
+				(length 5.08)
 				(name "VCCINT"
 					(effects
 						(font
@@ -52118,7 +52009,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -5.08 180)
+				(at -19.05 -10.16 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52136,7 +52027,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -2.54 180)
+				(at -19.05 -12.7 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52154,7 +52045,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -8.89 0)
+				(at -19.05 17.78 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52172,7 +52063,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 0 180)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52190,7 +52081,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 2.54 180)
+				(at -19.05 -17.78 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52208,7 +52099,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 5.08 180)
+				(at -19.05 -20.32 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52226,7 +52117,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 7.62 180)
+				(at 19.05 20.32 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52245,7 +52136,7 @@
 			)
 			(pin input line
 				(at -1.27 -33.02 90)
-				(length 2.54)
+				(length 5.08)
 				(name "GNDIO"
 					(effects
 						(font
@@ -52254,60 +52145,6 @@
 					)
 				)
 				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 19.05 10.16 180)
-				(length 5.08)
-				(name "I/O"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -19.05 7.62 0)
-				(length 5.08)
-				(name "TCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 19.05 15.24 180)
-				(length 5.08)
-				(name "I/O"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52325,6 +52162,60 @@
 						)
 					)
 				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 15.24 180)
+				(length 5.08)
+				(name "TCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 12.7 180)
+				(length 5.08)
+				(name "I/O"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 10.16 180)
+				(length 5.08)
+				(name "I/O"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "28"
 					(effects
 						(font
@@ -52334,8 +52225,8 @@
 				)
 			)
 			(pin input line
-				(at -1.27 34.29 270)
-				(length 2.54)
+				(at -1.27 33.02 270)
+				(length 5.08)
 				(name "VCCIO"
 					(effects
 						(font
@@ -52352,7 +52243,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -11.43 0)
+				(at -19.05 15.24 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52371,7 +52262,7 @@
 			)
 			(pin input line
 				(at 1.27 -33.02 90)
-				(length 2.54)
+				(length 5.08)
 				(name "GNDIO"
 					(effects
 						(font
@@ -52388,7 +52279,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 20.32 180)
+				(at 19.05 7.62 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52406,7 +52297,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 5.08 0)
+				(at 19.05 5.08 180)
 				(length 5.08)
 				(name "TDO"
 					(effects
@@ -52424,7 +52315,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 22.86 180)
+				(at 19.05 2.54 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52442,7 +52333,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 25.4 180)
+				(at 19.05 0 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52460,7 +52351,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 27.94 180)
+				(at 19.05 -2.54 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52479,7 +52370,7 @@
 			)
 			(pin input line
 				(at 6.35 -33.02 90)
-				(length 2.54)
+				(length 5.08)
 				(name "GNDINT"
 					(effects
 						(font
@@ -52496,7 +52387,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 25.4 0)
+				(at 19.05 -5.08 180)
 				(length 5.08)
 				(name "GCLK1"
 					(effects
@@ -52514,7 +52405,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 20.32 0)
+				(at 19.05 -10.16 180)
 				(length 5.08)
 				(name "OE1"
 					(effects
@@ -52532,7 +52423,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 22.86 0)
+				(at 19.05 -7.62 180)
 				(length 5.08)
 				(name "GCLRn"
 					(effects
@@ -52551,7 +52442,7 @@
 			)
 			(pin input line
 				(at -6.35 -33.02 90)
-				(length 2.54)
+				(length 5.08)
 				(name "GNDIO"
 					(effects
 						(font
@@ -52568,7 +52459,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 17.78 0)
+				(at 19.05 -12.7 180)
 				(length 5.08)
 				(name "OE2/GCLK2"
 					(effects
@@ -52586,8 +52477,8 @@
 				)
 			)
 			(pin input line
-				(at 3.81 34.29 270)
-				(length 2.54)
+				(at 3.81 33.02 270)
+				(length 5.08)
 				(name "VCCINT"
 					(effects
 						(font
@@ -52604,7 +52495,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -19.05 0)
+				(at 19.05 -15.24 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52622,7 +52513,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -21.59 0)
+				(at 19.05 -17.78 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52640,7 +52531,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -24.13 0)
+				(at 19.05 -20.32 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52658,7 +52549,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -13.97 0)
+				(at -19.05 12.7 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52676,7 +52567,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -16.51 0)
+				(at -19.05 10.16 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52694,7 +52585,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 10.16 0)
+				(at -19.05 7.62 0)
 				(length 5.08)
 				(name "TMS"
 					(effects
@@ -52712,7 +52603,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -11.43 180)
+				(at -19.05 5.08 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52730,8 +52621,8 @@
 				)
 			)
 			(pin input line
-				(at -3.81 34.29 270)
-				(length 2.54)
+				(at -3.81 33.02 270)
+				(length 5.08)
 				(name "VCCIO"
 					(effects
 						(font
@@ -52757,7 +52648,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 1.778 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -52765,7 +52656,7 @@
 			)
 		)
 		(property "Value" "EPM3128ATC100"
-			(at 0 -5.08 0)
+			(at 0 -3.302 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -52773,7 +52664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 -1.27 0)
+			(at 0 1.016 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -52782,7 +52673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 -1.27 0)
+			(at 0 1.016 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -52791,7 +52682,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 -2.54 0)
+			(at 0 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52808,84 +52699,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "EPM3128ATC100_0_0"
-			(text "A"
-				(at -12.7 12.7 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "B"
-				(at -12.7 -13.97 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "C"
-				(at -12.7 -40.64 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "D"
-				(at 12.7 -46.99 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "E"
-				(at 12.7 -20.32 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "F"
-				(at 12.7 3.81 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "G"
-				(at 12.7 25.4 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-			(text "H"
-				(at 12.7 46.99 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-						(bold yes)
-					)
-				)
-			)
-		)
 		(symbol "EPM3128ATC100_1_0"
 			(rectangle
-				(start -20.32 62.23)
-				(end 20.32 -62.23)
+				(start -20.32 58.42)
+				(end 20.32 -58.42)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -52897,7 +52714,7 @@
 		)
 		(symbol "EPM3128ATC100_1_1"
 			(pin bidirectional line
-				(at -25.4 24.13 0)
+				(at -25.4 49.53 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52915,7 +52732,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -16.51 0)
+				(at -25.4 29.21 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52933,7 +52750,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 1.27 0)
+				(at 25.4 -49.53 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52951,7 +52768,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -67.31 90)
+				(at -13.97 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -52969,7 +52786,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -19.05 0)
+				(at -25.4 26.67 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -52987,7 +52804,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -21.59 0)
+				(at -25.4 24.13 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53005,7 +52822,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -24.13 0)
+				(at -25.4 21.59 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53023,7 +52840,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 38.1 0)
+				(at -25.4 19.05 0)
 				(length 5.08)
 				(name "TMS"
 					(effects
@@ -53041,7 +52858,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -30.48 0)
+				(at -25.4 16.51 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53059,7 +52876,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -33.02 0)
+				(at -25.4 13.97 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53077,7 +52894,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 67.31 270)
+				(at -7.62 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -53095,7 +52912,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -35.56 0)
+				(at -25.4 11.43 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53113,7 +52930,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 21.59 0)
+				(at -25.4 46.99 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53131,7 +52948,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -38.1 0)
+				(at -25.4 8.89 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53149,7 +52966,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -40.64 0)
+				(at -25.4 6.35 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53167,7 +52984,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -43.18 0)
+				(at -25.4 3.81 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53185,7 +53002,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -45.72 0)
+				(at -25.4 1.27 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53203,7 +53020,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -48.26 0)
+				(at -25.4 -1.27 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53221,7 +53038,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -50.8 0)
+				(at -25.4 -3.81 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53239,7 +53056,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 -67.31 90)
+				(at -11.43 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -53257,7 +53074,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -55.88 180)
+				(at -25.4 -6.35 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53275,7 +53092,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -53.34 180)
+				(at -25.4 -8.89 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53293,7 +53110,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -50.8 180)
+				(at -25.4 -11.43 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53311,7 +53128,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 67.31 270)
+				(at -10.16 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -53329,7 +53146,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -48.26 180)
+				(at -25.4 -13.97 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53347,7 +53164,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -45.72 180)
+				(at -25.4 -16.51 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53365,7 +53182,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -43.18 180)
+				(at -25.4 -19.05 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53383,7 +53200,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -67.31 90)
+				(at -8.89 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -53401,7 +53218,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 67.31 270)
+				(at -5.08 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -53419,7 +53236,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -40.64 180)
+				(at -25.4 -21.59 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53437,7 +53254,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -38.1 180)
+				(at -25.4 -24.13 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53455,7 +53272,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -35.56 180)
+				(at -25.4 -26.67 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53473,7 +53290,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -67.31 90)
+				(at 11.43 -63.5 90)
 				(length 5.08)
 				(name "GNDINT"
 					(effects
@@ -53491,7 +53308,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 67.31 270)
+				(at 5.08 63.5 270)
 				(length 5.08)
 				(name "VCCINT"
 					(effects
@@ -53509,7 +53326,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 40.64 0)
+				(at -25.4 44.45 0)
 				(length 5.08)
 				(name "TDI"
 					(effects
@@ -53527,7 +53344,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -31.75 180)
+				(at -25.4 -29.21 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53545,7 +53362,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -29.21 180)
+				(at -25.4 -31.75 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53563,7 +53380,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -26.67 180)
+				(at -25.4 -34.29 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53581,7 +53398,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -67.31 90)
+				(at -6.35 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -53599,7 +53416,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -24.13 180)
+				(at -25.4 -36.83 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53617,7 +53434,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -21.59 180)
+				(at -25.4 -39.37 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53635,7 +53452,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -19.05 180)
+				(at -25.4 -41.91 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53653,7 +53470,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -16.51 180)
+				(at -25.4 -44.45 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53671,7 +53488,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -13.97 180)
+				(at -25.4 -46.99 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53689,7 +53506,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -11.43 180)
+				(at -25.4 -49.53 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53707,7 +53524,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -3.81 0)
+				(at -25.4 41.91 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53725,7 +53542,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -8.89 180)
+				(at 25.4 49.53 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53743,7 +53560,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 67.31 270)
+				(at -2.54 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -53761,7 +53578,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -5.08 180)
+				(at 25.4 46.99 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53779,7 +53596,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -67.31 90)
+				(at -3.81 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -53797,7 +53614,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -2.54 180)
+				(at 25.4 44.45 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53815,7 +53632,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 0 180)
+				(at 25.4 41.91 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53833,7 +53650,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 2.54 180)
+				(at 25.4 39.37 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53851,7 +53668,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 5.08 180)
+				(at 25.4 36.83 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53869,7 +53686,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 7.62 180)
+				(at 25.4 34.29 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53887,7 +53704,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 -67.31 90)
+				(at -1.27 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -53905,7 +53722,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -6.35 0)
+				(at -25.4 39.37 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53923,7 +53740,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 10.16 180)
+				(at 25.4 31.75 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53941,7 +53758,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 12.7 180)
+				(at 25.4 29.21 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53959,7 +53776,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 35.56 0)
+				(at 25.4 26.67 180)
 				(length 5.08)
 				(name "TCK"
 					(effects
@@ -53977,7 +53794,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 16.51 180)
+				(at 25.4 24.13 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -53995,7 +53812,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 19.05 180)
+				(at 25.4 21.59 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54013,7 +53830,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -67.31 90)
+				(at 1.27 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -54031,7 +53848,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 67.31 270)
+				(at 0 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -54049,7 +53866,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 21.59 180)
+				(at 25.4 19.05 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54067,7 +53884,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 24.13 180)
+				(at 25.4 16.51 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54085,7 +53902,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 26.67 180)
+				(at 25.4 13.97 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54103,7 +53920,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -8.89 0)
+				(at -25.4 36.83 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54121,7 +53938,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 29.21 180)
+				(at 25.4 11.43 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54139,7 +53956,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 31.75 180)
+				(at 25.4 8.89 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54157,7 +53974,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 34.29 180)
+				(at 25.4 6.35 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54175,7 +53992,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 33.02 0)
+				(at 25.4 3.81 180)
 				(length 5.08)
 				(name "TDO"
 					(effects
@@ -54193,7 +54010,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 -67.31 90)
+				(at 3.81 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -54211,7 +54028,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 38.1 180)
+				(at 25.4 1.27 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54229,7 +54046,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 40.64 180)
+				(at 25.4 -1.27 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54247,7 +54064,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 43.18 180)
+				(at 25.4 -3.81 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54265,7 +54082,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 -67.31 90)
+				(at 6.35 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -54283,7 +54100,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 45.72 180)
+				(at 25.4 -6.35 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54301,7 +54118,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -11.43 0)
+				(at -25.4 34.29 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54319,7 +54136,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 48.26 180)
+				(at 25.4 -8.89 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54337,7 +54154,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 50.8 180)
+				(at 25.4 -11.43 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54355,7 +54172,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 67.31 270)
+				(at 2.54 63.5 270)
 				(length 5.08)
 				(name "VCCIO"
 					(effects
@@ -54373,7 +54190,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 53.34 180)
+				(at 25.4 -13.97 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54391,7 +54208,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 55.88 180)
+				(at 25.4 -16.51 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54409,7 +54226,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 58.42 180)
+				(at 25.4 -19.05 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54427,7 +54244,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -67.31 90)
+				(at 13.97 -63.5 90)
 				(length 5.08)
 				(name "GNDINT"
 					(effects
@@ -54445,7 +54262,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 53.34 0)
+				(at 25.4 -21.59 180)
 				(length 5.08)
 				(name "GCLK1"
 					(effects
@@ -54463,7 +54280,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 50.8 0)
+				(at 25.4 -24.13 180)
 				(length 5.08)
 				(name "OE1"
 					(effects
@@ -54481,7 +54298,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 48.26 0)
+				(at 25.4 -26.67 180)
 				(length 5.08)
 				(name "GCLRn"
 					(effects
@@ -54499,7 +54316,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -13.97 0)
+				(at -25.4 31.75 0)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54517,7 +54334,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 45.72 0)
+				(at 25.4 -29.21 180)
 				(length 5.08)
 				(name "OE2/GCLK2"
 					(effects
@@ -54535,7 +54352,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 67.31 270)
+				(at 7.62 63.5 270)
 				(length 5.08)
 				(name "VCCINT"
 					(effects
@@ -54553,7 +54370,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 19.05 0)
+				(at 25.4 -31.75 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54571,7 +54388,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 16.51 0)
+				(at 25.4 -34.29 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54589,7 +54406,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 13.97 0)
+				(at 25.4 -36.83 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54607,7 +54424,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -67.31 90)
+				(at 8.89 -63.5 90)
 				(length 5.08)
 				(name "GNDIO"
 					(effects
@@ -54625,7 +54442,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 11.43 0)
+				(at 25.4 -39.37 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54643,7 +54460,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 8.89 0)
+				(at 25.4 -41.91 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54661,7 +54478,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 6.35 0)
+				(at 25.4 -44.45 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
@@ -54679,7 +54496,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 3.81 0)
+				(at 25.4 -46.99 180)
 				(length 5.08)
 				(name "I/O"
 					(effects
