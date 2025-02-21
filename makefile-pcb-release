@@ -1,6 +1,6 @@
 # Required tools: kicad-cli, InteractiveHtmlBom, python, zip, qpdf, imagemagick, xsltproc, rst2pdf, sed, awk
 #
-PRO="your_project.kicad_pro"
+PRO=$(wildcard *.kicad_pro)
 PRO_DIR=$(dir ${PRO})
 NAME=$(basename $(notdir ${PRO}))
 SCHFILE=${PRO_DIR}/${NAME}.kicad_sch
@@ -147,15 +147,15 @@ define pdf_export_json
 		"b_adhes": "rgb(0, 0, 132)",
 		"b_crtyd": "rgb(38, 233, 255)",
 		"b_fab": "rgb(0, 0, 0)",
-		"b_mask": "rgba(0, 132, 0, 0.350)",
+		"b_mask": "rgba(135, 135, 135, 0.5)",
 		"b_paste": "rgba(0, 132, 0, 0.350)",
 		"b_silks": "rgb(255, 0, 0)",
 		"background": "rgb(255, 255, 255)",
 		"cmts_user": "rgb(89, 148, 220)",
 		"conflicts_shadow": "rgba(255, 0, 5, 0.502)",
 		"copper": {
-			"b": "rgba(0, 132, 0, 0.200)",
-			"f": "rgba(0, 132, 0, 0.200)",
+			"b": "rgb(222, 245, 241)",
+			"f": "rgb(222, 245, 241)",
 			"in1": "rgb(127, 200, 127)",
 			"in10": "rgb(237, 124, 51)",
 			"in11": "rgb(91, 195, 235)",
@@ -195,7 +195,7 @@ define pdf_export_json
 		"f_adhes": "rgb(132, 0, 132)",
 		"f_crtyd": "rgb(255, 38, 226)",
 		"f_fab": "rgb(0, 0, 0)",
-		"f_mask": "rgba(0, 132, 0, 0.350)",
+		"f_mask": "rgba(135, 135, 135, 0.5)",
 		"f_paste": "rgba(0, 132, 0, 0.350)",
 		"f_silks": "rgb(255, 0, 0)",
 		"footprint_text_invisible": "rgb(132, 132, 132)",
