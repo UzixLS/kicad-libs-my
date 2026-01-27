@@ -1,4 +1,4 @@
-(footprint "USB_A_L-KLS1-181B_Vertical"
+(footprint "USB_A_L-KLS1-181B_10MM_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "USB_A_L-KLS1-181B_Vertical"
-		(at 3.6 5.2 0)
+	(property "Value" "USB_A_L-KLS1-181B_10MM_Vertical"
+		(at 3.6 5.8 0)
 		(layer "F.Fab")
 		(uuid "33076439-9ee7-4643-96c1-4ee12910bce7")
 		(effects
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Universal footprint"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -65,7 +65,7 @@
 		(uuid "cacde674-1a7b-43df-b9fa-1fb66c3fd64e")
 	)
 	(fp_line
-		(start -3.26 0.49)
+		(start -3.26 -0.73)
 		(end -3.26 -1.73)
 		(stroke
 			(width 0.12)
@@ -95,7 +95,7 @@
 		(uuid "b3c4b4ba-f95d-4d4d-bc52-ae65a5b84793")
 	)
 	(fp_line
-		(start 10.26 0.49)
+		(start 10.26 -0.73)
 		(end 10.26 -1.73)
 		(stroke
 			(width 0.12)
@@ -117,8 +117,8 @@
 		(uuid "037e2519-89f4-417c-866f-475ea2020dbb")
 	)
 	(fp_rect
-		(start -4.8 -2)
-		(end 11.8 4.3)
+		(start -4.8 -2.825)
+		(end 11.8 4.825)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -148,15 +148,15 @@
 		(uuid "50f1e26d-1a74-4cbe-9b10-7f8bb57d31c4")
 	)
 	(fp_rect
-		(start -3.15 -1.6)
-		(end 10.15 3.9)
+		(start -3.65 -2.71)
+		(end 10.65 4.71)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e994846e-8855-437a-aec6-ca86d779df53")
+		(uuid "118ca764-35e4-4ac9-bc67-d9a8df6009a0")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 3.5 2.1 0)
@@ -209,6 +209,24 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "da25d254-74ca-4bc4-a526-cd8328ed3ead")
+	)
+	(pad "5" thru_hole oval
+		(at -2.9 1)
+		(size 1.2 3.2)
+		(drill oval 0.7 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "1a07c4e1-37d8-4945-8141-bdaa4822f717")
+	)
+	(pad "5" thru_hole oval
+		(at 9.9 1.03)
+		(size 1.2 3.2)
+		(drill oval 0.7 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "ea8c1c60-b0cf-462e-a672-ea3285d08a20")
 	)
 	(pad "5" thru_hole circle
 		(at 10 2.5)
