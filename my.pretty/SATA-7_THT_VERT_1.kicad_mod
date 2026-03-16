@@ -186,7 +186,7 @@
 		(remove_unused_layers no)
 		(uuid "e2e397b1-c60b-4224-b0ad-95f5bd03e4e0")
 	)
-	(pad "8" thru_hole circle
+	(pad "MP" thru_hole circle
 		(at -10.29 -0.5)
 		(size 2.5 2.5)
 		(drill 1.35)
@@ -194,7 +194,7 @@
 		(remove_unused_layers no)
 		(uuid "5d8797f2-a574-416e-aef4-a6107853d452")
 	)
-	(pad "9" thru_hole circle
+	(pad "MP" thru_hole circle
 		(at 2.67 -0.5)
 		(size 2.5 2.5)
 		(drill 1.35)

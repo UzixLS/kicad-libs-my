@@ -1172,7 +1172,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "acd78eb4-24a4-445b-86ea-d6e31a5e7518")
 	)
-	(pad "M1" thru_hole oval
+	(pad "MP" thru_hole oval
 		(at -6.39826 -9.24814)
 		(size 1.27 2.54)
 		(drill 0.6985)
@@ -1180,7 +1180,7 @@
 		(remove_unused_layers no)
 		(uuid "0dd49cc1-8d91-4014-9d5b-c8b1f25f78e0")
 	)
-	(pad "M2" thru_hole oval
+	(pad "MP" thru_hole oval
 		(at 6.39826 -9.24814)
 		(size 1.27 2.54)
 		(drill 0.6985)
