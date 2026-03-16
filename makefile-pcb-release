@@ -7,7 +7,7 @@ SCHFILE=${PRO_DIR}/${NAME}.kicad_sch
 PCBFILE=${PRO_DIR}/${NAME}.kicad_pcb
 REV=$(shell sed -En 's/.*\(rev "(.*)"\).*/\1/p' "${SCHFILE}")
 
-KICAD_VER=8.0
+KICAD_VER=9.0
 PYTHON=python
 IBOM_SCRIPT_WIN=${USERPROFILE}/Documents/KiCad/${KICAD_VER}/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py
 IBOM_SCRIPT_NIX=${HOME}/.local/share/kicad/${KICAD_VER}/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py
@@ -38,7 +38,7 @@ clean:
 		--map-format gerberx2 \
 		"${PCBFILE}"
 	kicad-cli pcb export gerbers --output "$(@D)/gerber/" \
-		--layers F.Cu,B.Cu,`awk '/layer "In2.Cu"/{print "In1.Cu,In2.Cu,"; exit}' "${PCBFILE}"`F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,F.Paste,B.Paste,Edge.Cuts \
+		--layers F.Cu,B.Cu,`awk '/layer "In2.Cu"/{print "In1.Cu,In2.Cu,"; exit}' "${PCBFILE}"`F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,F.Paste,B.Paste,Edge.Cuts,Cmts.User \
 		--no-protel-ext \
 		--no-x2 \
 		--disable-aperture-macros \
@@ -52,13 +52,12 @@ gerber: ${PRO_DIR}/out/gerber.zip
 %/bom_interactive.html: .FORCE
 	mkdir -p "$(@D)"
 	${PYTHON} "${IBOM_SCRIPT}" "${PCBFILE}" \
-		--dnp-field DNP \
-		--group-fields "Value,Footprint" \
+		--dnp-field 'DNP' \
+		--group-fields 'Value,Footprint' \
 		--include-nets \
-		--include-tracks \
 		--normalize-field-case \
 		--no-browser \
-		--dest-dir "out" \
+		--dest-dir 'out' \
 		--name-format "$(basename $(@F))"
 
 ibom: ${PRO_DIR}/out/bom_interactive.html
@@ -67,6 +66,7 @@ ibom: ${PRO_DIR}/out/bom_interactive.html
 .INTERMEDIATE: ${COLORS_DIR}/pdf_export.json
 ${COLORS_DIR}/pdf_export.json:
 	$(file >${COLORS_DIR}/pdf_export.json,${pdf_export_json})
+
 
 %/schematic.pdf: ${COLORS_DIR}/pdf_export.json
 	mkdir -p $(@D)
@@ -99,18 +99,48 @@ ${COLORS_DIR}/pdf_export.json:
 	qpdf --replace-input "$@" --overlay "$(@D)/B_Fab.pdf" --
 	rm "$(@D)/B_Cu.pdf" "$(@D)/B_Mask.pdf" "$(@D)/B_Drills.pdf" "$(@D)/B_Edge_Cuts.pdf" "$(@D)/B_Fab.pdf"
 
-%/bom.pdf:
+
+%/bom.csv:
 	mkdir -p "$(@D)"
 	kicad-cli sch export python-bom --output "$(@D)/bom.xml" "${SCHFILE}"
 	$(file >$(@D)/bom2csv.xsl,${bom2csv_xsl})
 	xsltproc -o "$(@D)/bom.csv" "$(@D)/bom2csv.xsl" "$(@D)/bom.xml"
+	rm "$(@D)/bom2csv.xsl" "$(@D)/bom.xml"
+
+%/bom.pdf: %/bom.csv
+	mkdir -p "$(@D)"
 	$(file >$(@D)/bom.rst,${bom_rst})
 	$(file >$(@D)/bom.rst.style,${bom_rst_style})
 	rst2pdf -s "$(@D)/bom.rst.style" "$(@D)/bom.rst" "$@"
-	rm "$(@D)/bom2csv.xsl" "$(@D)/bom.rst" "$(@D)/bom.rst.style" "$(@D)/bom.csv" "$(@D)/bom.xml"
+	rm "$(@D)/bom.rst" "$(@D)/bom.rst.style" "$(@D)/bom.csv"
 
 
-# Current KiCad version cannot automatically export 3D or VRML file, so you need to manually do it and save result to out/*_3d.png
+RENDER_ZOOM=0.8
+RENDER_PIVOT=0,-0.25,0
+RENDER_ROTATE=345,0,0
+%/render_f.png:
+	kicad-cli pcb render -o "$@" \
+		--perspective \
+		--quality high \
+		-w 2220 -h 1580 \
+		--zoom "${RENDER_ZOOM}" \
+		--pivot "${RENDER_PIVOT}" \
+		--rotate "${RENDER_ROTATE}" \
+		--side top \
+		"${PCBFILE}"
+%/render_b.png:
+	kicad-cli pcb render -o "$@" \
+		--perspective \
+		--quality high \
+		-w 2220 -h 1580 \
+		--zoom "${RENDER_ZOOM}" \
+		--pivot "${RENDER_PIVOT}" \
+		--rotate "${RENDER_ROTATE}" \
+		--side bottom \
+		"${PCBFILE}"
+
+render_%.pdf: render_%.png
+	magick "$<" -density 264 "$@"
 %_3d.jpg: %_3d.png
 	convert "$<" -quality 90 "$@"
 %_3d.pdf: %_3d.jpg
@@ -119,7 +149,7 @@ ${COLORS_DIR}/pdf_export.json:
 
 PC := %
 .SECONDEXPANSION:
-%/pcb.pdf: $$(@D)/schematic.pdf $$(@D)/assembly_f.pdf $$(@D)/assembly_b.pdf $$(@D)/bom.pdf $$(patsubst $${PC}.png,$${PC}.pdf,$$(wildcard $$(@D)/*_3d.png))
+%/pcb.pdf: $$(@D)/schematic.pdf $$(@D)/assembly_f.pdf $$(@D)/assembly_b.pdf $$(@D)/bom.pdf $$(@D)/render_f.pdf $$(@D)/render_b.pdf $$(patsubst $${PC}.png,$${PC}.pdf,$$(wildcard $$(@D)/*_3d.png))
 	qpdf --empty --pages $+ -- "$@"
 	rm $+
 
@@ -129,17 +159,9 @@ pdf: ${PRO_DIR}/out/pcb.pdf
 
 define pdf_export_json
 {
-	"3d_viewer": {
-		"background_bottom": "rgb(102, 102, 128)",
-		"background_top": "rgb(204, 204, 230)",
-		"board": "rgba(51, 43, 23, 0.902)",
-		"copper": "rgb(179, 156, 0)",
-		"silkscreen_bottom": "rgb(230, 230, 230)",
-		"silkscreen_top": "rgb(230, 230, 230)",
-		"soldermask_bottom": "rgba(20, 51, 36, 0.831)",
-		"soldermask_top": "rgba(20, 51, 36, 0.831)",
-		"solderpaste": "rgb(128, 128, 128)",
-		"use_board_stackup_colors": true
+	"meta": {
+		"name": "pdf_export",
+		"version": 5
 	},
 	"board": {
 		"anchor": "rgb(255, 38, 226)",
@@ -223,10 +245,6 @@ define pdf_export_json
 		"via_through": "rgb(236, 236, 236)",
 		"worksheet": "rgb(132, 0, 0)"
 	},
-	"meta": {
-		"name": "pdf_export",
-		"version": 5
-	},
 	"schematic": {
 		"anchor": "rgb(0, 0, 255)",
 		"aux_items": "rgb(0, 0, 0)",
@@ -272,62 +290,13 @@ define pdf_export_json
 endef
 
 
-define bom2csv_xsl
-<!--XSL style sheet to convert EESCHEMA XML Partlist Format to grouped CSV BOM Format
-		Copyright (C) 2014, Wolf Walter.
-		Copyright (C) 2013, Stefan Helmert.
-		GPL v2.
--->
-
-<!DOCTYPE xsl:stylesheet [
-	<!ENTITY nl  "&#xd;&#xa;">    <!--new line CR, LF, or LF, your choice -->
-]>
-
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-	<xsl:output method="text"/>
-	<xsl:key name="partTypeByValueAndFootprint" match="comp" use="concat(footprint, '-', value)" />
-	<xsl:key name="headentr" match="field" use="@name"/>
-
-	<xsl:template match="/export">
-		<xsl:text>References, Value, Footprint, Qty</xsl:text>
-		<xsl:apply-templates select="components"/>
-	</xsl:template>
-
-	<xsl:template match="components">
-		<!-- for Muenchian grouping of footprint and value combination -->
-		<xsl:for-each select="comp[count(. | key('partTypeByValueAndFootprint', concat(footprint, '-', value))[1]) = 1]">
-			<!-- <xsl:sort select="@ref" /> -->
-			<xsl:text>&nl;</xsl:text>
-			<!-- list of all references -->
-			<xsl:for-each select="key('partTypeByValueAndFootprint', concat(footprint, '-', value))">
-				<!-- <xsl:sort select="@ref" /> -->
-				<xsl:value-of select="@ref"/>
-				<xsl:text> </xsl:text>
-			</xsl:for-each>
-			<xsl:text>,"</xsl:text>
-			<xsl:value-of select="value"/>
-			<xsl:for-each select="fields/field[@name='ValueAlt']">
-				<xsl:text> (Alternatives: </xsl:text>
-				<xsl:value-of select="."/>
-				<xsl:text>)</xsl:text>
-			</xsl:for-each>
-			<xsl:text>","</xsl:text>
-			<xsl:value-of select="footprint"/>
-			<xsl:text>",</xsl:text>
-			<xsl:value-of select="count(key('partTypeByValueAndFootprint', concat(footprint, '-', value)))"/>
-		</xsl:for-each>
-	</xsl:template>
- </xsl:stylesheet>
-endef
-
-
 define bom_rst
 Bill Of Materials
 -----------------
 .. csv-table::
 	:file: bom.csv
 	:header-rows: 1
-	:widths: 4,4,5,1
+	:widths: 4,5,5,1
 .. footer:: ${NAME} rev.${REV} BOM page ###Page###/###Total###
 endef
 
@@ -341,11 +310,79 @@ pageSetup:
 	margin-right: 7mm
 	margin-top: 5mm
 styles:
-	base
-		fontSize: 9
+	base:
+		fontName: NewStroke
+		fontSize: 8
 	table-heading:
 		fontName: stdBold
 endef
 
+
+XSL_GROUP_KEY=concat(footprint, ':', value, ':', fields/field[@name='PartNo'], ':', fields/field[@name='ValueAlt'])
+define bom2csv_xsl
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+	<xsl:output method="text"/>
+	<xsl:key name="partGroup" match="comp" use="${XSL_GROUP_KEY}" />
+	<xsl:template match="/export">
+		<xsl:text>Refs,Value,Footprint,Qty&#10;</xsl:text>
+		<xsl:for-each select="components/comp[count(. | key('partGroup', ${XSL_GROUP_KEY})[1]) = 1]">
+			<!-- REFERENCES -->
+			<!-- <xsl:sort select="@ref" /> -->
+			<xsl:for-each select="key('partGroup', ${XSL_GROUP_KEY})">
+				<xsl:value-of select="@ref"/>
+				<xsl:text> </xsl:text>
+			</xsl:for-each>
+			<xsl:text>,"</xsl:text>
+			<!-- VALUE -->
+            <xsl:variable name="valueString">
+                <xsl:if test="not(fields/field[@name='PartNo'])">
+					<xsl:value-of select="value"/>
+	                <xsl:if test="fields/field[@name='ValueAlt'] != ''">
+	                    <xsl:text>, </xsl:text>
+	                </xsl:if>
+				</xsl:if>
+                <xsl:value-of select="fields/field[@name='PartNo']"/>
+                <xsl:if test="fields/field[@name='PartNo'] and fields/field[@name='ValueAlt']">
+                    <xsl:text>, </xsl:text>
+                </xsl:if>
+                <xsl:value-of select="fields/field[@name='ValueAlt']"/>
+                <xsl:if test="fields/field[@name='PartNo']">
+                	<xsl:text>, \(</xsl:text>
+                	<xsl:value-of select="value"/>
+                    <xsl:text>)</xsl:text>
+                </xsl:if>
+            </xsl:variable>
+            <xsl:call-template name="replaceCommaWithNewline">
+                <xsl:with-param name="text" select="$$valueString"/>
+            </xsl:call-template>
+			<xsl:text>","</xsl:text>
+			<!-- FOOTPRINT -->
+			<xsl:value-of select="substring-after(footprint,':')" />
+			<xsl:text>",</xsl:text>
+			<!-- QTY -->
+			<xsl:value-of select="count(key('partGroup', ${XSL_GROUP_KEY}))"/>
+			<xsl:text>&#10;</xsl:text>
+		</xsl:for-each>
+	</xsl:template>
+	<xsl:template name="replaceCommaWithNewline">
+		<xsl:param name="text"/>
+		<xsl:choose>
+			<xsl:when test="contains($$text, ', ')">
+				<xsl:value-of select="substring-before($$text, ', ')"/>
+				<xsl:text>&#10;&#10;</xsl:text>
+				<xsl:call-template name="replaceCommaWithNewline">
+					<xsl:with-param name="text" select="substring-after($$text, ', ')"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$$text"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+</xsl:stylesheet>
+endef
+
+
+-include makefile-pcb-release.cfg
 
 export PATH:=/cygdrive/c/Program Files/KiCad/${KICAD_VER}/bin:/cygdrive/c/Program Files/qpdf/bin:${PATH}
